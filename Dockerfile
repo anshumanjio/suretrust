@@ -1,5 +1,8 @@
 FROM elixir:1.11.4-alpine as build
 
+ARG DATABASE_URL
+ARG SECRET_KEY_BASE
+
 # install build dependencies
 RUN apk add --no-cache build-base npm git python3
 
