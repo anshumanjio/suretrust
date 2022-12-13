@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <!-- Stylesheets
+    ============================================= -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/plugin.css" type="text/css" />
+    <link rel="stylesheet" href="css/font.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <!-- External JavaScripts
+    ============================================= -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+
+    <!-- Document Title
+    ============================================= -->
+    <title>Sure Trust | About Us</title>
+
+</head>
+
+<body>
+    <!-- MAIN WRAPPER -->
+    <div id="main-wrapper" class="animsition clearfix">
+
+        <!-- HEADER -->
+        <header class="site-header clearfix">
+            <div class="header-wrap">
+                <div class="container">
+                    <!-- Logo
+                        ============================================= -->
+                    <div class="logo">
+                        <a href=""><img src="images/img/logo.png" alt="Smaze Logo">
+                        </a>
+                    </div>
+                    <!-- #logo end -->
+                    <!-- Primary Navigation
+                        ============================================= -->
+                    <button id="menu-icon" class="burger">
+                    <span class="bar bar-1"></span>
+                    <span class="bar bar-2"></span>
+                    <span class="bar bar-3"></span>
+                    <span class="bar bar-4"></span>
+                    </button>
+                    <nav id="main-nav" class="clearfix">
+                        <ul>
+                            <li class="menu-item-has-children">
+                                <a href="/">Home</a>
+                                <ul class="children">
+                                    <li>
+                                        <a href="index-home2">Home 2</a>
+                                    </li>
+                                    <li>
+                                        <a href="index-home3">Home 3</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="active">
+                                <a href="about-us" aria-haspopup="true">About</a>
+                            </li>
+                            <li>
+                                <a href="services">Services</a>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="portfolio">Portfolio</a>
+                                <ul class="children">
+                                    <li>
+                                        <a href="portfolio-grid">Portfolio Alt</a>
+                                    </li>
+                                    <li>
+                                        <a href="portfolio-single">Single Portfolio</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="blog-index">Blog</a>
+                                <ul class="children">
+                                    <li>
+                                        <a href="blog-masonry">Blog Alt</a>
+                                    </li>
+                                    <li>
+                                        <a href="single-post">Single Blog</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="contact">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- #main-nav end -->
+                </div>
+                <!-- header-wrap end -->
+            </div>
+        </header>
+        <!-- header end -->
+
+        <section class="background-header">
+            <h1 class="page-title title-with-bord">About Us</h1>
+        </section>
+
+
+        <!-- CONTENT WRAPPER
+        ============================================= -->
+        <div id="content-wrapper">
+
+		    <!-- About Block
+            ============================================= -->
+			<section class="about-block clearfix">
+				
+				<div class="achievement col-md-5">
+
+                    <div class="content-achievement">                   
+    					<h3 class="achivement-title">Smaze Achievement</h3>
+    					<h4 class="achievement-subtitle">The Art of Visualizing</h4>
+    					<p>We think our work speaks for itself. We craft bespoke websites, digital tools, info-graphics and logos to bring websites, digital tools, info-graphics</p>
+    					<a href="portfolio-single" class="btn">Full Story</a>
+    				</div>
+
+                </div>
+
+
+            <div class="about-detail col-md-7">
+                <div class="about-info col-md-7">
+                    <h3 class="dark-title-with-bord">Smaze</h3>
+                    <h4 class="about-subtitle">We think our work speaks for itself. We craft be spoke websites</h4>
+                    <p>Smaze is the one of the leading creative digital agency in Melobourne, We think our work speaks for itself. We craft be spoke websites, digital tools, info-graphics and logos to bring your message to colorful design We think our work speaks for itself. We craft bespoke websites, digital tools, info-graphics and logos to bring websites, digital tools, info-graphics</p>
+                    <p>We think our work speaks for itself. We craft be spoke websites, digital tools, info-graphics and logos to bring your message to colorful design We think our work speaks for itself. </p>
+                </div>
+                <div class="about-author col-md-5">
+                    <img src="images/img/about/author.jpg" alt="author">
+                    <h3 class="name">Steven Smith</h3>
+                    <h5 class="dark-title-with-bord job">Creative Director</h5>
+                    <p>While designing, we put special attention to smallest detailst digital tools, info-graphics and logos to bring your message to colorful design We think our work speaks for itself.</p>
+                    <div class="dark-social-icon">
+                        <a href="https://www.facebook.com/" class="facebook"><i class="smaze icon-facebook"></i></a>
+                        <a href="https://www.twitter.com/" class="twitter"><i class="smaze icon-twitter-alt"></i></a>
+                        <a href="https://www.linkedin.com/" class="linkedin"><i class="smaze icon-linkedin-1"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- about-detail end -->
+
+
+			</section>
+			<!-- About Block -->
+
+            <!-- SKILL AND EXPERTISE SECTION
+            ============================================= -->    
+            <section class="skill-expertise clearfix">
+    
+            <div class="container">
+
+                <!-- SKILL
+                ============================================= -->
+                <div class="skill col-md-6">
+                    <div class="ourskill-block">
+                    <h3 class="dark-title-with-bord">Skills and Expertise</h3>
+                        
+                        <div class="skills-barrow clearfix">
+                            <div class="skills-title">Photoshop 
+                                <span class="skill-bar-percent bar-perce">9/10</span>
+                            </div>
+                            <div class="skills-bar" data-percent="90%">
+                                <div class="bar"></div>
+                            </div>
+                        </div>
+
+                        <div class="skills-barrow clearfix">
+                            <div class="skills-title">HTML5/CSS3
+                                <span class="skill-bar-percent bar-perce">9.5/10</span>
+                            </div>
+                            <div class="skills-bar" data-percent="95%">
+                                <div class="bar"></div>
+                            </div>
+                        </div>
+
+                        <div class="skills-barrow clearfix">
+                            <div class="skills-title">WordPress 
+                                <span class="skill-bar-percent bar-perce">8/10</span>
+                            </div>
+                            <div class="skills-bar" data-percent="80%">
+                                <div class="bar"></div>
+                            </div>
+                        </div>
+
+                        <div class="skills-barrow clearfix">
+                            <div class="skills-title">JavaScript 
+                                <span class="skill-bar-percent bar-perce">7/10</span>
+                            </div>
+                            <div class="skills-bar" data-percent="70%">
+                                <div class="bar"></div>
+                            </div>
+                        </div>
+
+                        <div class="skills-barrow clearfix">
+                            <div class="skills-title">PHP &amp; MySQL 
+                                <span class="skill-bar-percent bar-perce">9/10</span>
+                            </div>
+                            <div class="skills-bar" data-percent="90%">
+                                <div class="bar"></div>
+                            </div>
+                        </div>
+                
+                    </div>
+                </div>
+                <!-- skill end -->
+
+                <!-- ACCORDION
+                ============================================= -->
+                <div class="accordion col-md-6">
+                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                      <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingOne">
+                          <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Intro 01
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                          <div class="panel-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingTwo">
+                          <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Work Experience
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                          <div class="panel-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+                        </div>
+                      </div>
+                      <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                          <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              Awards and Achivements
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                          <div class="panel-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                </div>
+                <!-- accordion end -->
+
+            </div>
+            <!-- container end -->
+
+            </section>
+            <!-- section skill-expertise end -->
+
+            <!-- FULL PAGE PARALLAX BACKGROUND
+            ============================================= -->
+            <section class="full-page-section parallax clearfix" id="about">
+                <div class="overlay"></div>
+              <div class="testimonial-wrap">
+
+                    <div class="testimonial-item flexslider">
+                        <ul class="slides">
+                            <li>
+                                <div class="testimoni-author">
+                                    <img src="images/img/ava/ava4.jpg" alt="ava1">
+                                    <h4 class="author">Kane Lee <cite>CEO of DH Agency</cite></h4>
+                                </div>
+                                <p class="testimonial-text">
+                                Aenean adipiscing non urna at viverra. Ut lobortis mattis massa. Fusce faucibus dignissim ligula, eu vestibulum enim feugiat ut. Pellentesque fringilla non sem sed interdum. Integer gravida aliquam condimentum.
+                                </p>
+                                <i class="smaze icon-quote-right testi-quote"></i>
+                            </li>
+                            <li>
+                                <div class="testimoni-author">
+                                    <img src="images/img/ava/ava2.jpg" alt="ava2">
+                                    <h4 class="author">Yon Ohi <cite>CEO</cite></h4>
+                                </div>
+                                <p class="testimonial-text">
+                                Aenean adipiscing non urna at viverra. Ut lobortis mattis massa. Fusce faucibus dignissim ligula, eu vestibulum enim feugiat ut. Pellentesque fringilla non sem sed interdum. Integer gravida aliquam condimentum. </p>
+                                <i class="smaze icon-quote-right testi-quote"></i>
+                            </li>
+                            <li>
+                                <div class="testimoni-author">
+                                    <img src="images/img/ava/ava3.jpg" alt="ava3">
+                                    <h4 class="author">Yon Ohi <cite>MARKETING MANAGER</cite></h4>
+                                </div>
+                                <p class="testimonial-text">
+                                Aenean adipiscing non urna at viverra. Ut lobortis mattis massa. Fusce faucibus dignissim ligula, eu vestibulum enim feugiat ut. Pellentesque fringilla non sem sed interdum. Integer gravida aliquam condimentum.</p> 
+                                <i class="smaze icon-quote-right testi-quote"></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Testimonial Item end -->
+                </div>
+                <!-- Testimonial Wrap end -->
+            </section>
+            <!-- full-page-section end -->
+            
+        </div>
+        <!-- #content-wrapper end -->
+
+
+        <!-- FOOTER
+        ============================================= -->
+        <footer class="site-footer">
+            <div class="container">
+
+                <!-- Footer Top
+                ============================================= -->
+                <div class="footer-top">
+                    <div class="logo-footer wow fadeIn">
+                        <img src="images/img/logo.png" alt="Smaze Logo">
+                    </div>
+                    <p class="subtitle-footer wow fadeIn">
+                        Smaze is the one of the leading creative digital agency in Melobourne, We think our work speaks for itself. We craft be spoke websites, digital tools, info-graphics and logos to bring your message to colorful design We think our work speaks for itself. We craft bespoke websites, digital tools, info-graphics and logos to bring websites, digital tools, info-graphics
+                    </p>
+                    <a href="contact" href="contact" class="btn wow fadeIn">Contact</a>
+                    <div class="footer-social">
+                        <ul class="social-profile">
+                            <li class="twitter"><a href="www.twitter.com"><i class="icon icon-social-twitter"></i></a></li>
+                            <li class="facebook"><a href="www.facebook.com"><i class="icon icon-social-facebook"></i></a></li>
+                            <li class="youtube"><a href="www.youtube.com"><i class="icon icon-social-youtube"></i></a></li>
+                            <li class="dribble"><a href="www.dribbble.com"><i class="icon icon-social-dribbble"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- footer-top end -->
+            </div>
+            <!-- container -->
+        
+            <!-- Footer Bottom
+            ============================================= -->
+            <div class="footer-bottom clearfix">
+                <div class="copyright-footer">
+                    <p>Copyright &#169; 2015, All Rights Reserved <a href="http://www.themesawesome.com/">Themes Awesome</a>
+                    </p>
+                </div>
+            </div>
+            <!-- footer-bottom end -->
+
+        </footer>
+        <!-- footer end -->
+
+    </div>
+    <!-- #main wrapper end-->
+
+    <!-- Footer Scripts
+    ============================================= -->
+    <script type="text/javascript" src="js/plugin.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/flexslider.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript">
+            $(window).load(function () {
+                $(".testimonial-wrap .flexslider").flexslider({
+                    animation: "slide",
+                    controlNav: true,
+                    prevText: "",
+                    nextText: "",
+                    directionNav: true,
+                    smoothHeight: false,
+                    slideshowSpeed: 5000
+                });
+            });
+
+    </script>
+</body>
+
+</html>

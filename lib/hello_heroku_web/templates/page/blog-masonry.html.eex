@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <!-- Stylesheets
+    ============================================= -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/plugin.css" type="text/css" />
+    <link rel="stylesheet" href="css/font.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <!-- External JavaScripts
+    ============================================= -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+
+    <!-- Document Title
+    ============================================= -->
+    <title>Sure Trust | Blog Masonry</title>
+
+</head>
+
+<body>
+    <!-- MAIN WRAPPER -->
+    <div id="main-wrapper" class="animsition clearfix">
+
+        <!-- HEADER -->
+        <header class="site-header clearfix">
+            <div class="header-wrap no-transparent">
+                <div class="container">
+                    <!-- Logo
+                        ============================================= -->
+                    <div class="logo">
+                        <a href=""><img src="images/img/logo.png" alt="Smaze Logo">
+                        </a>
+                    </div>
+                    <!-- #logo end -->
+                    <!-- Primary Navigation
+                     ============================================= -->
+                    <button id="menu-icon" class="burger">
+                    <span class="bar bar-1"></span>
+                    <span class="bar bar-2"></span>
+                    <span class="bar bar-3"></span>
+                    <span class="bar bar-4"></span>
+                    </button>
+                    <nav id="main-nav" class="clearfix">
+                        <ul>
+                            <li class="menu-item-has-children">
+                                <a href="/">Home</a>
+                                <ul class="children">
+                                    <li>
+                                        <a href="index-home2">Home 2</a>
+                                    </li>
+                                    <li>
+                                        <a href="index-home3">Home 3</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="about-us" aria-haspopup="true">About</a>
+                            </li>
+                            <li>
+                                <a href="services">Services</a>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="portfolio">Portfolio</a>
+                                <ul class="children">
+                                    <li>
+                                        <a href="portfolio-grid">Portfolio Alt</a>
+                                    </li>
+                                    <li>
+                                        <a href="portfolio-single">Single Portfolio</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-has-children active">
+                                <a href="blog-index">Blog</a>
+                                <ul class="children">
+                                    <li>
+                                        <a href="blog-masonry">Blog Alt</a>
+                                    </li>
+                                    <li>
+                                        <a href="single-post">Single Blog</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="contact">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- #main-nav end -->
+                </div>
+                <!-- header-wrap end -->
+            </div>
+        </header>
+        <!-- header end -->
+
+        <!-- CONTENT WRAPPER
+        ============================================= -->
+        <div id="content-wrapper" class="masonry-blog">
+
+            <!-- Blog Masonry Content
+            ============================================= -->
+            <section class="blog-home clearfix">
+
+                <div class="container">
+                    <h2 class="thetitle wow fadeIn">
+                         Collection of Our News & Updates
+                     </h2>
+                    <p class="subtitle wow fadeIn">
+                        We think our work speaks for itself. We craft bespoke websites, digital tools,
+                        info-graphics and logos to bring your message to colorful design
+                     </p>
+
+                    <!-- Blog Items
+                    ============================================= -->
+                    <div id="blog-block">
+
+                        <article class="blog-item wide-blog has-post-thumbnail ">
+                        <div class="blog-wrap wow fadeInUp">
+                            <img src="images/img/blog1.png" alt="Portfolio 1" />
+                            <div class="blog-overlay">
+                               <div class="blog-desc">
+                                   <div class="blog-date">20 MAR, 2015</div>
+                                   <h3 class="blog-title">DIGITAL DESIGN FOR THE PHYSICAL WORLD</h3>
+                                   <p class="blog-excerpt">We think our work speaks for itself. We craft bespoke websites, digital tools, info-graphics and logos to bring websites, digital tools, info-graphics</p>
+                                   <a href="single-post" class="read-more btn">Full Story</a>
+                               </div>
+                           </div>
+                        </div>
+                        </article>
+
+                         <article class="blog-item has-post-thumbnail ">
+                            <div class="blog-wrap wow fadeInUp"> 
+                                <img src="images/img/blog7.jpg" alt="Portfolio 1" />
+                                <div class="blog-desc">
+                                    <div class="blog-date">19 MAR, 2015</div>
+                                    <h3 class="blog-title">We Think Our Work Speaks For Itself</h3>
+                                    <p class="blog-excerpt">We think our work speaks for itself. We craft bespoke websites, digital tools, info-graphics and logos to bring websites, digital tools, info-graphics</p>
+                                    <a href="single-post" class="read-more btn">Full Story</a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="blog-item">
+                            <div class="blog-wrap wow fadeInUp">
+                                <div class="blog-desc">
+                                    <div class="blog-date">18 MAR, 2015</div>
+                                    <h3 class="blog-title">The Art Of Visualizing</h3>
+                                    <p class="blog-excerpt">We think our work speaks for itself. We craft bespoke websites, digital tools, info-graphics and logos to bring websites, digital tools, info-graphics</p>
+                                    <a href="single-post" class="read-more btn">Full Story</a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="blog-item has-post-thumbnail">
+                            <div class="blog-wrap wow fadeInUp">                           
+                                <img src="images/img/blog4.jpg" alt="Portfolio 1" />
+                                <div class="blog-desc">
+                                    <div class="blog-date">17 MAR, 2015</div>
+                                    <h3 class="blog-title">We Think Our Work Speaks For Itself</h3>
+                                    <p class="blog-excerpt">We think our work speaks for itself. We craft bespoke websites, digital tools, info-graphics and logos to bring websites, digital tools, info-graphics</p>
+                                    <a href="single-post" class="read-more btn">Full Story</a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="blog-item">
+                            <div class="blog-wrap wow fadeInUp">   
+                                <div class="blog-desc">
+                                    <div class="blog-date">16 MAR, 2015</div>
+                                    <h3 class="blog-title">OUR WORKS WILL SPEAK</h3>
+                                    <p class="blog-excerpt">We think our work speaks for itself. We craft bespoke websites, digital tools, info-graphics and logos We think our work speaks for itself. We craft bespoke websites, digital tools, info</p>
+                                    <a href="single-post" class="read-more btn">Full Story</a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="blog-item has-post-thumbnail">
+                            <div class="blog-wrap wow fadeInUp">
+                                <img src="images/img/blog-2.jpg" alt="Portfolio 1" />
+                                <div class="blog-desc">
+                                    <div class="blog-date">15 MAR, 2015</div>
+                                    <h3 class="blog-title">The Art Of Visualizing</h3>
+                                    <p class="blog-excerpt">We think our work speaks for itself. We craft bespoke websites, digital tools, info-graphics and logos to bring websites, digital tools, info-graphics</p>
+                                    <a href="single-post" class="read-more btn">Full Story</a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="blog-item wide-blog has-post-thumbnail">
+                            <div class="blog-wrap wow fadeInUp">
+                                <img src="images/img/blog9.jpg" alt="Portfolio 1" />
+                                <div class="blog-desc">
+                                    <div class="blog-date">14 MAR, 2015</div>
+                                    <h3 class="blog-title">DIGITAL DESIGN FOR THE PHYSICAL WORLD</h3>
+                                    <p class="blog-excerpt">We think our work speaks for itself. We craft bespoke websites, digital tools, info-graphics and logos to bring websites, digital tools, info-graphics</p>
+                                    <a href="single-post" class="read-more btn">Full Story</a>
+                               </div>
+                            </div>
+                        </article>
+
+                    </div>
+                    <!-- blog-block end -->
+                </div>
+                <!-- container end -->
+
+                <!-- Blog Script
+                ============================================= -->
+                <script type="text/javascript">
+
+                    jQuery(window).load(function(){
+
+                        var $containerBlog = $('#blog-block');
+
+                        $containerBlog.isotope({ 
+                            transitionDuration: '0.65s',
+                                layoutMode: 'packery',
+                        });
+
+                        $(window).resize(function() {
+                            $containerBlog.isotope('layout');
+                        });
+
+                    });
+
+                </script>
+                <!-- Blog Script End -->
+            </section>
+            <!-- Blog Home end -->
+
+        </div>
+        <!-- #content-wrapper end -->
+
+        <!-- FOOTER
+        ============================================= -->
+        <footer class="site-footer">
+            <div class="container">
+
+                <!-- Footer Top
+                ============================================= -->
+                <div class="footer-top">
+                    <div class="logo-footer wow fadeIn">
+                        <img src="images/img/logo.png" alt="Smaze Logo">
+                    </div>
+                    <p class="subtitle-footer wow fadeIn">
+                        Smaze is the one of the leading creative digital agency in Melobourne, We think our work speaks for itself. We craft be spoke websites, digital tools, info-graphics and logos to bring your message to colorful design We think our work speaks for itself. We craft bespoke websites, digital tools, info-graphics and logos to bring websites, digital tools, info-graphics
+                    </p>
+                    <a href="contact" href="contact" class="btn wow fadeIn">Contact</a>
+                    <div class="footer-social">
+                        <ul class="social-profile">
+                            <li class="twitter"><a href="www.twitter.com"><i class="icon icon-social-twitter"></i></a></li>
+                            <li class="facebook"><a href="www.facebook.com"><i class="icon icon-social-facebook"></i></a></li>
+                            <li class="youtube"><a href="www.youtube.com"><i class="icon icon-social-youtube"></i></a></li>
+                            <li class="dribble"><a href="www.dribbble.com"><i class="icon icon-social-dribbble"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- footer-top end -->
+            </div>
+            <!-- container -->
+        
+            <!-- Footer Bottom
+            ============================================= -->
+            <div class="footer-bottom clearfix">
+                <div class="copyright-footer">
+                    <p>Copyright &#169; 2015, All Rights Reserved <a href="http://www.themesawesome.com/">Themes Awesome</a>
+                    </p>
+                </div>
+            </div>
+            <!-- footer-bottom end -->
+
+        </footer>
+        <!-- footer end -->
+
+
+    </div>
+    <!-- #main wrapper end-->
+
+
+
+
+    <!-- Footer Scripts
+    ============================================= -->
+    <!-- external -->
+    <script type="text/javascript" src="js/plugin.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>

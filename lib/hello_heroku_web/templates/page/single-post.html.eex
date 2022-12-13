@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+
+    <!-- Stylesheets
+    ============================================= -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/plugin.css" type="text/css" />
+    <link rel="stylesheet" href="css/font.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <!--[if lt IE 9]>
+        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+
+    <!-- External JavaScripts
+    ============================================= -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+
+    <!-- Document Title
+    ============================================= -->
+    <title>Sure Trust | Single Post</title>
+
+</head>
+
+<body>
+    <!-- MAIN WRAPPER -->
+    <div id="main-wrapper" class="animsition clearfix">
+
+        <!-- HEADER -->
+        <header class="site-header clearfix">
+            <div class="header-wrap no-transparent">
+                <div class="container">
+                    <!-- Logo
+                        ============================================= -->
+                    <div class="logo">
+                        <a href="index"><img src="image/image/img/logo.png" alt="Smaze Logo">
+                        </a>
+                    </div>
+                    <!-- #logo end -->
+                    <!-- Primary Navigation
+                     ============================================= -->
+                    <button id="menu-icon" class="burger">
+                    <span class="bar bar-1"></span>
+                    <span class="bar bar-2"></span>
+                    <span class="bar bar-3"></span>
+                    <span class="bar bar-4"></span>
+                    </button>
+                    <nav id="main-nav" class="clearfix">
+                        <ul>
+                            <li class="menu-item-has-children">
+                                <a href="/">Home</a>
+                                <ul class="children">
+                                    <li>
+                                        <a href="index-home2">Home 2</a>
+                                    </li>
+                                    <li>
+                                        <a href="index-home3">Home 3</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="about-us" aria-haspopup="true">About</a>
+                            </li>
+                            <li>
+                                <a href="services">Services</a>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="portfolio">Portfolio</a>
+                                <ul class="children">
+                                    <li>
+                                        <a href="portfolio-grid">Portfolio Alt</a>
+                                    </li>
+                                    <li>
+                                        <a href="portfolio-single">Single Portfolio</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-has-children active">
+                                <a href="blog-index">Blog</a>
+                                <ul class="children">
+                                    <li>
+                                        <a href="blog-masonry">Blog Alt</a>
+                                    </li>
+                                    <li>
+                                        <a href="single-post">Single Blog</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="contact">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- #main-nav end -->
+                </div>
+                <!-- header-wrap end -->
+            </div>
+        </header>
+        <!-- header end -->
+
+        <!-- CONTENT WRAPPER
+        ============================================= -->
+        <div id="content-wrapper" class="container wrapper">
+            
+            <!-- Blog Content
+            ============================================= -->
+            <div class="single-blog col-md-8">
+                
+                <!-- Post Article
+                ============================================= -->
+                <article class="post wow fadeIn clearfix">    
+                    <div class="post-date">
+                        <span class="date-number">18</span>
+                        <span class="date-month">MAR</span>
+                    </div>
+                    
+                    <div class="post-meta">
+                        <h2 class="post-title">Milk Shake with Butter Cookies</h2>
+                        <div class="meta-post-top">
+                            <span class="author"><i class="smaze icon-user"></i>John</span>
+                            <span class="comments"><i class="smaze icon-talk-chat-2"></i>0 Comments</span>
+                        </div>
+                    </div>
+
+                    <div class="post-content">
+                        <div class="post-thumb">
+                            <img src="image/image/img/blog/blog1.jpg" alt="blog1" class="img-post">
+                        </div>
+                        <div class="inner-post">
+                            <p>There are many variations of passages of Lorem Ipsum available, but the joy have suffered alteration in some format, by injected humour.  There are many variations of passages of Lorem Ipsum available, but the joy have suffered alteration in some format, by injected humour. </p>
+                            <blockquote>“ Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC  ”</blockquote>
+                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- meta bottom -->
+                    <div class="meta-bottom clearfix">
+                        <!-- social share -->
+                        <div class="social-share col-md-3">
+                            <h4 class="share-title"><i class="icon icon-share"></i>Share</h4>
+                            <a href="www.facebook.com" class=" facebook"><i class="smaze icon-facebook"></i></a>
+                            <a href="www.twitter.com" class=" twitter"><i class="smaze icon-twitter-alt"></i></a>
+                            <a href="www.linkedin.com" class=" linkedin"><i class="smaze icon-linkedin"></i></a>
+                            <a href="www.skype.com" class=" skype"><i class="smaze icon-skype"></i></a>
+                        </div>
+                        <!-- social share end -->
+
+                        <!-- tags -->
+                        <div class="tags-bottom col-md-9">
+                            <h4 class="tag-title"><i class="smaze icon-tag-outline"></i>Tags</h4>
+                            <span><a href="#">Web design</a>, <a href="#">Project</a>, <a href="#">Photography</a>, <a href="#">Image</a>, <a href="#">Agency</a>, <a href="#">Marketing</a>, <a href="#">advertising</a>, <a href="#">branding</a>, <a href="#">Mobile</a>, <a href="#">Design</a></span>
+                        </div>
+                        <!-- tags end -->
+                    </div>
+                    <!-- mtea-bottom end -->
+
+                    <!-- start of post author info -->
+                    <div class="postauthor postinfo clearfix">
+                        <div class="author-ava col-md-2">
+                            <h4 class="title">Author</h4>
+                            <img alt="author" src="image/image/img/ava/post-author.jpg" class="avatar" height="100" width="100">
+                        </div>
+                        <div class="authordesc col-md-10">
+                            <h4 class="author-post-name">
+                                <a href="#" title="Sara Joshep" rel="author">Sara Joshep</a>
+                            </h4>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the joy have suffered alteration in some format, by injected humour.</p>
+                        </div>
+                    </div>
+                    <!-- end of post author info -->
+
+                </article>
+                <!-- post article end -->
+                
+            </div>
+            <!-- blog content end -->
+
+            <!-- SIDEBAR
+            ============================================= -->
+            <aside id="primary-sidebar" class=" col-md-4 clearfix">
+
+                <!-- Widget Latest News
+                ============================================= -->
+                <div class="widget-latest-news widget">
+                    <h3 class="widget-title title-link">Recent Post</h3>
+                    
+                    <!-- widget-news -->
+                    <div class="widget-news media">
+                        <a class="pull-left" href="single-post">
+                            <img class="media-image" src="image/image/img/widget/recent-post-img1.jpg" alt="recent1">
+                        </a>
+                        <div class="media-entry">
+                            <h4 class="entry-title">
+                                <a href="single-post">Cheeta on the Road</a>
+                            </h4>
+                            <p class="entry-text">
+                                <a href="single-post">Maecenas metus lorem nulla facili prem lipsum.</a>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- widget-news end -->
+
+                    <!-- widget-news -->
+                    <div class="widget-news media">
+                        <a class="pull-left" href="single-post">
+                            <img class="media-image" src="image/image/img/widget/recent-post-img2.jpg" alt="recent2">
+                        </a>
+                        <div class="media-entry">
+                            <h4 class="entry-title">
+                                <a href="single-post">Cup of Coffee</a>
+                            </h4>
+                            <p class="entry-text">
+                                <a href="single-post">Maecenas metus lorem nulla facili prem lipsum.</a>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- widget-news end -->
+
+                    <!-- widget-news -->
+                    <div class="widget-news media">
+                        <a class="pull-left" href="single-post">
+                            <img class="media-image" src="image/image/img/widget/recent-post-img3.jpg" alt="recent3">
+                        </a>
+                        <div class="media-entry">
+                            <h4 class="entry-title">
+                                <a href="single-post">Vintage Camera</a>
+                            </h4>
+                            <p class="entry-text">
+                                <a href="single-post">Maecenas metus lorem nulla facili prem lipsum.</a>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- widget-news end -->
+                
+                </div>
+                <!-- end of latest news -->
+
+                <!-- Widget Category
+                ============================================= -->
+                <div class="category-widget widget">
+                    <h3 class="widget-title title-link">Categories</h3>
+                    <ul class="widget-item">
+                        <li><a href="#">Inspiration</a>
+                        </li>
+                        <li><a href="#">Resource</a>
+                        </li>
+                        <li><a href="#">Stories</a>
+                        </li>
+                        <li><a href="#">News</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- end of widget category -->
+
+                <!-- Widget Archives
+                ============================================= -->
+                <div class="category-widget widget">
+                    <h3 class="widget-title title-link">Archives</h3>
+                    <ul class="widget-item">
+                        <li><a href="#">March 2015</a>
+                        </li>
+                        <li><a href="#">February 2015</a>
+                        </li>
+                        <li><a href="#">January 2015</a>
+                        </li>
+                        <li><a href="#">December 2014</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- end of widget archives -->
+
+                <!-- Widget Tags
+                ============================================= -->
+                <div class="tags-widget widget">
+                    <h3 class="widget-title title-link">Tags</h3>
+                    <a href="#">Inspiration</a>
+                    <a href="#">Resource</a>
+                    <a href="#">Stories</a>
+                    <a href="#">News</a>
+                    <a href="#">Social</a>
+                    <a href="#">Photography</a>
+                    <a href="#">Design</a>
+                    <a href="#">Art</a>
+                </div>
+                <!-- end of tags -->
+
+            </aside>
+            <!-- end of sidebar -->
+
+        </div>
+        <!-- #content-wrapper end -->
+
+    <!-- FOOTER
+        ============================================= -->
+        <footer class="site-footer">
+            <div class="container">
+
+                <!-- Footer Top
+                ============================================= -->
+                <div class="footer-top">
+                    <div class="logo-footer wow fadeIn">
+                        <img src="image/image/img/logo.png" alt="Smaze Logo">
+                    </div>
+                    <p class="subtitle-footer wow fadeIn">
+                        Smaze is the one of the leading creative digital agency in Melobourne, We think our work speaks for itself. We craft be spoke websites, digital tools, info-graphics and logos to bring your message to colorful design We think our work speaks for itself. We craft bespoke websites, digital tools, info-graphics and logos to bring websites, digital tools, info-graphics
+                    </p>
+                    <a href="contact" class="btn wow fadeIn">Contact</a>
+                    <div class="footer-social">
+                        <ul class="social-profile">
+                            <li class="twitter"><a href="www.twitter.com"><i class="icon icon-social-twitter"></i></a></li>
+                            <li class="facebook"><a href="www.facebook.com"><i class="icon icon-social-facebook"></i></a></li>
+                            <li class="youtube"><a href="www.youtube.com"><i class="icon icon-social-youtube"></i></a></li>
+                            <li class="dribble"><a href="www.dribbble.com"><i class="icon icon-social-dribbble"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- footer-top end -->
+            </div>
+            <!-- container -->
+        
+            <!-- Footer Bottom
+            ============================================= -->
+            <div class="footer-bottom clearfix">
+                <div class="copyright-footer">
+                    <p>Copyright &#169; 2015, All Rights Reserved <a href="http://www.themesawesome.com/">Themes Awesome</a>
+                    </p>
+                </div>
+            </div>
+            <!-- footer-bottom end -->
+
+        </footer>
+        <!-- footer end -->
+
+    </div>
+    <!-- #main wrapper end-->
+
+    <!-- Footer Scripts
+    ============================================= -->
+    <!-- external -->
+    <script type="text/javascript" src="js/plugin.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>

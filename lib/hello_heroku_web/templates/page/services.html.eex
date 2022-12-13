@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <!-- Stylesheets
+    ============================================= -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/plugin.css" type="text/css" />
+    <link rel="stylesheet" href="css/font.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <!-- External JavaScripts
+    ============================================= -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+
+    <!-- Document Title
+    ============================================= -->
+    <title>Sure Trust | Service</title>
+
+</head>
+
+<body>
+	<!-- MAIN WRAPPER -->
+	<div id="main-wrapper" class="animsition clearfix">
+		
+		<!-- HEADER -->
+        <header class="site-header clearfix">
+            <div class="header-wrap">
+                <div class="container">
+                    <!-- Logo
+                        ============================================= -->
+                    <div class="logo">
+                        <a href=""><img src="images/img/logo.png" alt="Smaze Logo">
+                        </a>
+                    </div>
+                    <!-- #logo end -->
+                    <!-- Primary Navigation
+                        ============================================= -->
+                    <button id="menu-icon" class="burger">
+                    <span class="bar bar-1"></span>
+                    <span class="bar bar-2"></span>
+                    <span class="bar bar-3"></span>
+                    <span class="bar bar-4"></span>
+                    </button>
+                    <nav id="main-nav" class="clearfix">
+                        <ul>
+                            <li class="menu-item-has-children">
+                                <a href="/">Home</a>
+                                <ul class="children">
+                                    <li>
+                                        <a href="index-home2">Home 2</a>
+                                    </li>
+                                    <li>
+                                        <a href="index-home3">Home 3</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="about-us" aria-haspopup="true">About</a>
+                            </li>
+                            <li class="active">
+                                <a href="services">Services</a>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="portfolio">Portfolio</a>
+                                <ul class="children">
+                                    <li>
+                                        <a href="portfolio-grid">Portfolio Alt</a>
+                                    </li>
+                                    <li>
+                                        <a href="portfolio-single">Single Portfolio</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="blog-index">Blog</a>
+                                <ul class="children">
+                                    <li>
+                                        <a href="blog-masonry">Blog Alt</a>
+                                    </li>
+                                    <li>
+                                        <a href="single-post">Single Blog</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="contact">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- #main-nav end -->
+                </div>
+                <!-- header-wrap end -->
+            </div>
+        </header>
+        <!-- header end -->
+
+		<!-- Header Background
+        ============================================= -->
+		<section class="background-header">
+            <h1 class="page-title title-with-bord">Service</h1>
+        </section>
+        <!-- header background end -->
+
+		<!-- CONTENT WRAPPER
+		============================================= -->
+		<div id="content-wrapper" class="service">
+
+			<!-- Our Service Section
+            ============================================= -->
+            <section class="our-services clearfix">
+
+                <div class="container">
+					<!-- Feature Service
+           			============================================= -->
+                    <div class="feature-service clearfix">
+
+                        <div class="col-md-3">
+                            <div class="feature-box">
+                                <div class="feature-icon hi-icon-effect-8">
+                                    <i class="smaze icon-pie-outline hi-icon"></i>
+                                </div>
+                                <div class="feature-desc">
+                                    <h4>STRATEGY</h4>
+                                    <p>Brand strategy, Creative strategy, Information architecture</p>
+                                    <a href="#" class="read-more btn">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="feature-box">
+                                <div class="feature-icon hi-icon-effect-8">
+                                    <i class="smaze icon-cloud-upload-outline hi-icon"></i>
+                                </div>
+                                <div class="feature-desc">
+                                    <h4>Web Hosting</h4>
+                                    <p>Managed hosting, General maintenance, Branding creation</p>
+                                    <a href="#" class="read-more btn">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="feature-box">
+                                <div class="feature-icon hi-icon-effect-8">
+                                    <i class="smaze icon-streamline-sync hi-icon"></i>
+                                </div>
+                                <div class="feature-desc">
+                                    <h4>Branding</h4>
+                                    <p>Logo design, Branding creation, Style tiles, Style guides</p>
+                                    <a href="#" class="read-more btn">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="feature-box">
+                                <div class="feature-icon hi-icon-effect-8">
+                                    <i class="smaze icon-screen hi-icon"></i>
+                                </div>
+                                <div class="feature-desc">
+                                    <h4>Web design</h4>
+                                    <p>Logo design, Branding creation, Style tiles, Style guides</p>
+                                    <a href="#" class="read-more btn">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--feature-service end-->
+                </div>
+                <!--Container end-->
+            </section>
+            <!--our-service end-->
+
+
+			<!-- SERVICES STYLE 1
+            ============================================= -->
+			<section class="services-style-1">
+				<div class="container">
+					<h3 class="title-with-bord wow fadeIn">Services</h3>
+					<h2 class="thetitle wow fadeIn">Improve Digital Works With Us</h2>
+					<p class="subtitle wow fadeIn">
+						We think our work speaks for itself. We craft bespoke websites, digital tools, info-graphics and logos to bring your message to colorful design
+					</p>
+		
+					<div class="service-tab-style1 wow fadeIn">
+    					<ul class="nav nav-tabs feature-box-service-wrap clearfix" role="tablist" id="serviceTabs">
+    						<li role="presentation" class="active feature-box-services col-md-3"><a href="#responsive" aria-controls="responsive" role="tab" data-toggle="tab" class="feature-icon"><i class="icon-screen-smartphone icons"></i></a></li>
+
+    						<li role="presentation" class="feature-box-services col-md-3"><a href="#design" aria-controls="design" role="tab" data-toggle="tab" class="feature-icon"><i class="smaze icon-pencil-ruler icons"></i></a></li>
+
+    						<li role="presentation" class="feature-box-services col-md-3"><a href="#hosting" aria-controls="hosting" role="tab" data-toggle="tab" class="feature-icon"><i class="icon-cloud-upload icons"></i></a></li>
+
+    						<li role="presentation" class="feature-box-services col-md-3"><a href="#setting" aria-controls="setting" role="tab" data-toggle="tab" class="feature-icon"><i class="smaze icon-cog-gear icons"></i></a></li>
+    					</ul>
+
+                    <div class="border-box-services"></div>
+                    </div>
+                </div>
+                <!--container end -->
+
+                <div class="bord-full-service"></div>
+
+				<div class="tab-content service container clearfix">
+					
+                    <div role="tabpanel" class="tab-pane fade in service responsive active" id="responsive">
+						<div class="info col-md-6">
+							<div class="content">
+								<h3 class="dark-title-with-bord">Responsive</h3>
+								<p class="text">Suspendisse porttitor tempor quam a dapibus. Etiam consectetur dolor nec tortor finibus fermentum sit amet eget odio. Integer non nisl vel velit faucibus tincidunt. Aenean elit sem, volutpat sed tellus sed, tempor egestas augue. Fusce diam neque, pretium a venenatis sit amet, ultricies facilisis ex. Nunc vel orci quis neque egestas porttitor id a felis. Maecenas malesuada mi at ipsum lacinia, id ultricies quam semper. Duis ut condimentum dui, id suscipit lorem.</p>
+							</div>
+						</div>
+						<div class="feature col-md-6">
+							<ul class="feature-list top">
+								<li><a href="#"><i class="smaze icon-cog-gear"></i><span>7 x 24 Support</span></a></li>
+								<li><a href="#"><i class="smaze icon-html5"></i><span>HTML5 &amp; Css3</span></a></li>
+								<li><a href="#"><i class="smaze icon-code"></i><span>Strong Coding</span></a></li>
+                            </ul>
+                            <ul class="feature-list bottom">
+								<li><a href="#"><i class="smaze icon-screen-desktop"></i><span>Responsive design</span></a></li>
+                                <li><a href="#"><i class="smaze icon-eye"></i><span>Retina ready</span></a></li>
+                                <li><a href="#"><i class="smaze icon-photo"></i><span>Pixel Perfect</span></a></li>
+							</ul>
+						</div>
+					</div>
+                    <!-- tabpanel end -->
+
+					<div role="tabpanel" class="tab-pane fade in service design" id="design">
+						<div class="info col-md-6">
+							<div class="content">
+								<h3 class="dark-title-with-bord">Design</h3>
+								<p class="text">Suspendisse porttitor tempor quam a dapibus. Etiam consectetur dolor nec tortor finibus fermentum sit amet eget odio. Integer non nisl vel velit faucibus tincidunt. Aenean elit sem, volutpat sed tellus sed, tempor egestas augue. Fusce diam neque, pretium a venenatis sit amet, ultricies facilisis ex. Nunc vel orci quis neque egestas porttitor id a felis. Maecenas malesuada mi at ipsum lacinia, id ultricies quam semper. Duis ut condimentum dui, id suscipit lorem.</p>
+							</div>
+						</div>
+						<div class="feature col-md-6">
+							<ul class="feature-list top">
+                                <li><a href="#"><i class="smaze icon-cog-gear"></i><span>7 x 24 Support</span></a></li>
+                                <li><a href="#"><i class="smaze icon-html5"></i><span>HTML5 &amp; Css3</span></a></li>
+                                <li><a href="#"><i class="smaze icon-code"></i><span>Strong Coding</span></a></li>
+                            </ul>
+                            <ul class="feature-list bottom">
+                                <li><a href="#"><i class="smaze icon-screen-desktop"></i><span>Responsive design</span></a></li>
+                                <li><a href="#"><i class="smaze icon-eye"></i><span>Retina ready</span></a></li>
+                                <li><a href="#"><i class="smaze icon-photo"></i><span>Pixel Perfect</span></a></li>
+                            </ul>
+						</div>
+					</div>
+                    <!-- tabpanel end -->
+
+					<div role="tabpanel" class="tab-pane fade in service hosting" id="hosting">
+						<div class="info col-md-6">
+							<div class="content">
+								<h3 class="dark-title-with-bord">Hosting</h3>
+								<p class="text">Suspendisse porttitor tempor quam a dapibus. Etiam consectetur dolor nec tortor finibus fermentum sit amet eget odio. Integer non nisl vel velit faucibus tincidunt. Aenean elit sem, volutpat sed tellus sed, tempor egestas augue. Fusce diam neque, pretium a venenatis sit amet, ultricies facilisis ex. Nunc vel orci quis neque egestas porttitor id a felis. Maecenas malesuada mi at ipsum lacinia, id ultricies quam semper. Duis ut condimentum dui, id suscipit lorem.</p>
+							</div>
+						</div>
+						<div class="feature col-md-6">
+							<ul class="feature-list top">
+                                <li><a href="#"><i class="smaze icon-cog-gear"></i><span>7 x 24 Support</span></a></li>
+                                <li><a href="#"><i class="smaze icon-html5"></i><span>HTML5 &amp; Css3</span></a></li>
+                                <li><a href="#"><i class="smaze icon-code"></i><span>Strong Coding</span></a></li>
+                            </ul>
+                            <ul class="feature-list bottom">
+                                <li><a href="#"><i class="smaze icon-screen-desktop"></i><span>Responsive design</span></a></li>
+                                <li><a href="#"><i class="smaze icon-eye"></i><span>Retina ready</span></a></li>
+                                <li><a href="#"><i class="smaze icon-photo"></i><span>Pixel Perfect</span></a></li>
+                            </ul>
+						</div>
+					</div>
+                    <!-- tabpanel end -->
+
+					<div role="tabpanel" class="tab-pane fade in service setting" id="setting">
+						<div class="info col-md-6">
+							<div class="content">
+								<h3 class="dark-title-with-bord">Setting Up</h3>
+								<p class="text">Suspendisse porttitor tempor quam a dapibus. Etiam consectetur dolor nec tortor finibus fermentum sit amet eget odio. Integer non nisl vel velit faucibus tincidunt. Aenean elit sem, volutpat sed tellus sed, tempor egestas augue. Fusce diam neque, pretium a venenatis sit amet, ultricies facilisis ex. Nunc vel orci quis neque egestas porttitor id a felis. Maecenas malesuada mi at ipsum lacinia, id ultricies quam semper. Duis ut condimentum dui, id suscipit lorem.</p>
+							</div>
+						</div>
+						<div class="feature col-md-6">
+							<ul class="feature-list top">
+                                <li><a href="#"><i class="smaze icon-cog-gear"></i><span>7 x 24 Support</span></a></li>
+                                <li><a href="#"><i class="smaze icon-html5"></i><span>HTML5 &amp; Css3</span></a></li>
+                                <li><a href="#"><i class="smaze icon-code"></i><span>Strong Coding</span></a></li>
+                            </ul>
+                            <ul class="feature-list bottom">
+                                <li><a href="#"><i class="smaze icon-screen-desktop"></i><span>Responsive design</span></a></li>
+                                <li><a href="#"><i class="smaze icon-eye"></i><span>Retina ready</span></a></li>
+                                <li><a href="#"><i class="smaze icon-photo"></i><span>Pixel Perfect</span></a></li>
+                            </ul>
+						</div>
+					</div>
+                    <!-- tabpanel end -->
+
+                </div>
+                <!--#service-tab end -->
+			</section>
+            <!-- service-style-1 end -->
+
+            <!-- SERVICES STYLE 3
+            ============================================= -->
+			<section class="services-style-3">
+
+            <!-- Tabpanel
+            ============================================= -->
+
+            <div class="container">
+                <div role="tabpanel">
+                    <!-- Nav tabs -->
+                    <ul class="service-tab-style-3 col-md-6" role="tablist" id="service3Tabs">
+                        
+                        <li role="presentation" class="service-style3-item active">
+                        <a href="#web-design" aria-controls="web-design" role="tab" data-toggle="tab" class="feature-icon hi-icon-effect-1 hi-icon-effect-1a"><i class="smaze icon-screen-desktop hi-icon"></i>
+						<div class="detail">
+                        <h3 class="title">Web Designing</h3><p>Our approach is based on genuine and respectful communication with today’s traditional media and online influencers – readers, viewers, bloggers and journalists</p>
+                        </div>
+                        </a></li>
+
+                        <li role="presentation" class="service-style3-item">
+                        <a href="#branding" aria-controls="branding" role="tab" data-toggle="tab" class="feature-icon hi-icon-effect-1 hi-icon-effect-1a"><i class="smaze icon-diamond hi-icon"></i>
+						<div class="detail">
+                        <h3 class="title">Branding</h3><p>Our approach is based on genuine and respectful communication with today’s traditional media and online influencers – readers, viewers, bloggers and journalists</p>
+                        </div>
+                        </a></li>
+
+                        <li role="presentation" class="service-style3-item">
+                        <a href="#development" aria-controls="development" role="tab" data-toggle="tab" class="feature-icon hi-icon-effect-1 hi-icon-effect-1a"><i class="smaze icon-code hi-icon"></i>
+						<div class="detail">
+                        <h3 class="title">Web Development</h3><p>Our approach is based on genuine and respectful communication with today’s traditional media and online influencers – readers, viewers, bloggers and journalists</p>
+                        </div>
+                        </a></li>
+
+                        <li role="presentation" class="service-style3-item">
+                        <a href="#marketing" aria-controls="marketing" role="tab" data-toggle="tab" class="feature-icon hi-icon-effect-1 hi-icon-effect-1a"><i class="smaze icon-megaphone hi-icon"></i>
+						<div class="detail">
+                        <h3 class="title">Marketing</h3><p>Our approach is based on genuine and respectful communication with today’s traditional media and online influencers – readers, viewers, bloggers and journalists</p>
+                        </div>
+                        </a></li>
+
+                    </ul>
+
+                    <!-- Tab panes -->
+                    <div class="desc-service-tab-style-3 col-md-6">
+                        
+                        <div role="tabpanel" class="service-3-desc fade in active" id="web-design">
+                            <h3 class="dark-title-with-bord">Web Designing</h3>
+		                    <h4 class="about-subtitle">We think our work speaks for itself. We craft be spoke websites</h4>
+		                    <p>Smaze is the one of the leading creative digital agency in Melobourne, We think our work speaks for itself. We craft be spoke websites, digital tools, info-graphics and logos to bring your message to colorful design We think our work speaks for itself. We craft bespoke websites, digital tools, info-graphics and logos to bring websites, digital tools, info-graphics</p>
+		                    <p>We think our work speaks for itself. We craft be spoke websites, digital tools, info-graphics and logos to bring your message to colorful design We think our work speaks for itself. </p>
+                            <ul class="portfolio-grid clearfix">
+                            	<li><img src="image/img/portfolio10.jpg" alt="grid3"></li>
+                            	<li><img src="image/img/portfolio1.jpg" alt="grid1"></li>
+                            	<li><img src="image/img/portfolio7.jpg" alt="grid4"></li>
+                                <li><img src="image/img/portfolio3.jpg" alt="grid6"></li>
+                            	<li><img src="image/img/portfolio4.jpg" alt="grid2"></li>
+                                <li><img src="image/img/portfolio6.jpg" alt="grid5"></li>
+                            </ul>
+                            <a href="portfolio" class="btn">Start Project</a>
+                        </div>
+
+                        <div role="tabpanel" class="service-3-desc fade in" id="branding">
+                            <h3 class="dark-title-with-bord">Branding</h3>
+		                    <h4 class="about-subtitle">We think our work speaks for itself. We craft be spoke websites</h4>
+		                    <p>Smaze is the one of the leading creative digital agency in Melobourne, We think our work speaks for itself. We craft be spoke websites, digital tools, info-graphics and logos to bring your message to colorful design We think our work speaks for itself. We craft bespoke websites, digital tools, info-graphics and logos to bring websites, digital tools, info-graphics</p>
+		                    <p>We think our work speaks for itself. We craft be spoke websites, digital tools, info-graphics and logos to bring your message to colorful design We think our work speaks for itself. </p>
+		                    <ul class="portfolio-grid clearfix">
+                                <li><img src="image/img/portfolio1.jpg" alt="grid1"></li>
+                                <li><img src="image/img/portfolio7.jpg" alt="grid4"></li>
+                                <li><img src="image/img/portfolio3.jpg" alt="grid6"></li>
+                                <li><img src="image/img/portfolio6.jpg" alt="grid5"></li>
+                                <li><img src="image/img/portfolio4.jpg" alt="grid2"></li>
+                                <li><img src="image/img/portfolio10.jpg" alt="grid3"></li>
+                            </ul>
+                            <a href="portfolio" class="btn">Start Project</a>
+                        </div>
+
+                        <div role="tabpanel" class="service-3-desc fade in" id="development">
+                            <h3 class="dark-title-with-bord">Web Development</h3>
+		                    <h4 class="about-subtitle">We think our work speaks for itself. We craft be spoke websites</h4>
+		                    <p>Smaze is the one of the leading creative digital agency in Melobourne, We think our work speaks for itself. We craft be spoke websites, digital tools, info-graphics and logos to bring your message to colorful design We think our work speaks for itself. We craft bespoke websites, digital tools, info-graphics and logos to bring websites, digital tools, info-graphics</p>
+		                    <p>We think our work speaks for itself. We craft be spoke websites, digital tools, info-graphics and logos to bring your message to colorful design We think our work speaks for itself. </p>
+		                    <ul class="portfolio-grid clearfix">
+                                <li><img src="image/img/portfolio4.jpg" alt="grid2"></li>
+                                <li><img src="image/img/portfolio1.jpg" alt="grid1"></li>
+                                <li><img src="image/img/portfolio3.jpg" alt="grid6"></li>
+                                <li><img src="image/img/portfolio7.jpg" alt="grid4"></li>
+                                <li><img src="image/img/portfolio6.jpg" alt="grid5"></li>
+                                <li><img src="image/img/portfolio10.jpg" alt="grid3"></li>
+                            </ul>
+                            <a href="portfolio" class="btn">Start Project</a>
+                        </div>
+
+                        <div role="tabpanel" class="service-3-desc fade in" id="marketing">
+                            <h3 class="dark-title-with-bord">Marketing</h3>
+		                    <h4 class="about-subtitle">We think our work speaks for itself. We craft be spoke websites</h4>
+		                    <p>Smaze is the one of the leading creative digital agency in Melobourne, We think our work speaks for itself. We craft be spoke websites, digital tools, info-graphics and logos to bring your message to colorful design We think our work speaks for itself. We craft bespoke websites, digital tools, info-graphics and logos to bring websites, digital tools, info-graphics</p>
+		                    <p>We think our work speaks for itself. We craft be spoke websites, digital tools, info-graphics and logos to bring your message to colorful design We think our work speaks for itself. </p>
+		                    <ul class="portfolio-grid clearfix">
+                            	<li><img src="image/img/portfolio10.jpg" alt="grid3"></li>
+                                <li><img src="image/img/portfolio6.jpg" alt="grid5"></li>
+                                <li><img src="image/img/portfolio7.jpg" alt="grid4"></li>
+                                <li><img src="image/img/portfolio1.jpg" alt="grid1"></li>
+                                <li><img src="image/img/portfolio3.jpg" alt="grid6"></li>
+                                <li><img src="image/img/portfolio4.jpg" alt="grid2"></li>
+                            </ul>
+                            <a href="portfolio" class="btn">Start Project</a>
+                        </div>
+
+                    </div>
+                    <!-- desc-process-tab end -->
+                </div>
+                <!-- tabpanel end -->
+
+                </div>
+                <!-- container end -->
+                </section>
+                <!-- service tab style 3 end -->
+
+            <!-- FULL PAGE PARALLAX BACKGROUND
+            ============================================= -->
+            <section class="full-page-section parallax clearfix" id="service-page">
+                <div class="overlay"></div>
+                <h2 class="slogan">Do You Want Our Services To Grow YOur Business</h2>
+                <a href="" class="btn">hire us</a>
+            </section>
+            <!-- full-page-section end -->
+
+		</div>
+		<!-- #content-wrapper end -->
+
+		<!-- FOOTER
+        ============================================= -->
+        <footer class="site-footer">
+            <div class="container">
+
+                <!-- Footer Top
+                ============================================= -->
+                <div class="footer-top">
+                    <div class="logo-footer wow fadeIn">
+                        <img src="images/img/logo.png" alt="Smaze Logo">
+                    </div>
+                    <p class="subtitle-footer wow fadeIn">
+                        Smaze is the one of the leading creative digital agency in Melobourne, We think our work speaks for itself. We craft be spoke websites, digital tools, info-graphics and logos to bring your message to colorful design We think our work speaks for itself. We craft bespoke websites, digital tools, info-graphics and logos to bring websites, digital tools, info-graphics
+                    </p>
+                    <a href="contact" class="btn wow fadeIn">Contact</a>
+                    <div class="footer-social">
+                        <ul class="social-profile">
+                            <li class="twitter"><a href="www.twitter.com"><i class="icon icon-social-twitter"></i></a></li>
+                            <li class="facebook"><a href="www.facebook.com"><i class="icon icon-social-facebook"></i></a></li>
+                            <li class="youtube"><a href="www.youtube.com"><i class="icon icon-social-youtube"></i></a></li>
+                            <li class="dribble"><a href="www.dribbble.com"><i class="icon icon-social-dribbble"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- footer-top end -->
+            </div>
+            <!-- container -->
+        
+            <!-- Footer Bottom
+            ============================================= -->
+            <div class="footer-bottom clearfix">
+                <div class="copyright-footer">
+                    <p>Copyright &#169; 2015, All Rights Reserved <a href="http://www.themesawesome.com/">Themes Awesome</a>
+                    </p>
+                </div>
+            </div>
+            <!-- footer-bottom end -->
+
+        </footer>
+        <!-- footer end -->
+	</div>
+	<!-- #main wrapper end-->
+	<!-- Footer Scripts
+============================================= -->
+    <!-- external -->
+    <script type="text/javascript" src="js/plugin.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>

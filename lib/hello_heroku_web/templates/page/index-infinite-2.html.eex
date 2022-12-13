@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+
+    <!-- Stylesheets
+    ============================================= -->
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700'|Open+Sans:300,400,500,600,700" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/plugin.css" type="text/css" />
+    <link rel="stylesheet" href="css/font.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+
+    <!-- External JavaScripts
+    ============================================= -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+
+    <!-- Document Title
+    ============================================= -->
+    <title>Sure Trust | Multipurpose HTML Template</title>
+
+</head>
+
+<body>
+    <!-- MAIN WRAPPER -->
+    <div id="main-wrapper" class="animsition clearfix">
+
+        <!-- HEADER -->
+        <header class="site-header clearfix">
+
+            <div class="header-wrap">
+
+
+
+                <div class="container">
+
+                    <!-- Logo
+                    ============================================= -->
+                    <div class="logo">
+                        <a href=""><img src="images/img/logo.png" alt="Smaze Logo">
+                        </a>
+                    </div>
+                    <!-- #logo end -->
+
+                    <!-- Primary Navigation
+                    ============================================= -->
+                    <nav id="main-nav" class="clearfix">
+                        <a href="#main-nav" title="Show navigation">Show navigation</a>
+                        <a href="#" title="Hide navigation">Hide navigation</a>
+
+                        <ul>
+                            <li>
+                                <a href="#" class="active">Home</a>
+                            </li>
+                            <li>
+                                <a href="#" aria-haspopup="true">About</a>
+                            </li>
+                            <li>
+                                <a href="#">Services</a>
+                            </li>
+                            <li>
+                                <a href="#">Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="#">Blog</a>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="#">Pages</a>
+                                <ul class="children">
+                                    <li>
+                                        <a href="#">Level 1</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Level 2</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Level 3</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
+                        </ul>
+
+
+                    </nav>
+                    <!-- #main-nav end -->
+
+                </div>
+                <!-- header-wrap end -->
+            </div>
+
+
+        </header>
+
+
+
+        <section class="slider-home">
+            <img src="images/img/slide-home-1.png" alt="Image">
+        </section>
+
+
+        <!-- CONTENT WRAPPER
+            ============================================= -->
+        <div id="content-wrapper">
+
+
+            <section class="our-services clearfix">
+
+                <div class="container">
+                    <h3 class="title-with-bord wow fadeIn">Our Service</h3>
+                    <h2 class="thetitle wow fadeIn">
+                         FRIENDLY DESIGN + TECHNOLOGY
+                     </h2>
+                    <p class="subtitle wow fadeIn">
+                         We craft experiences for the web helping brands speak in a digital world
+                            We're serious about delivering great outcomes.
+                     </p>
+
+                    <div class="col-md-3">
+                        <div class="feature-box">
+                            <div class="feature-icon hi-icon-effect-8">
+                                <i class="icon-screen-smartphone hi-icon"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="feature-box">
+                            <div class="feature-icon hi-icon-effect-2 hi-icon-effect-2b">
+                                <i class="icon-screen-smartphone hi-icon"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <section class="portfolio">
+                
+                <div class="container">
+                    <h3 class="title-with-bord wow fadeIn">Portfolio</h3>
+                    <h2 class="thetitle wow fadeIn">
+                         Case Studio Gallery of Our Works
+                     </h2>
+                    <p class="subtitle wow fadeIn">
+                        We think our work speaks for itself. We craft bespoke websites, digital tools, info-graphics and logos to bring your message to colorful design
+                    </p>
+
+                </div>
+                
+                    <!-- Portfolio Filter
+                    ============================================= -->
+                    <ul id="portfolio-filter" class="wow fadeIn clearfix">
+
+                        <li class="activeFilter"><a href="#" data-filter="*">All</a></li>
+                        <li><a href="#" data-filter=".web-design">Web Design</a></li>
+                        <li><a href="#" data-filter=".illustrations">Branding</a></li>
+                        <li><a href="#" data-filter=".ui-elements">UI Elements</a></li>
+                        <li><a href="#" data-filter=".graphics">Graphics</a></li>
+
+                    </ul><!-- #portfolio-filter end -->
+
+
+
+                    <!-- Portfolio Items
+                    ============================================= -->
+                    <div id="portfolio" class="wow fadeIn clearfix">
+
+                        <article class="portfolio-item illustrations">
+
+                        <a href="portfolio-single">
+                            <div class="portfolio-image">
+
+                                    <img src="images/img/portfolio11.jpg" alt="Portfolio 1">
+
+                                <div class="portfolio-overlay">
+                                    <div class="portfolio-desc">
+                                        <h3 class="title-with-bord">Training Suit</h3>
+                                        <span>Branding</span>
+                                    </div>
+                                </div>
+                             </div>
+                             </a>
+
+                        </article>
+
+                        <article class="portfolio-item web-design">
+
+                        <a href="portfolio-single">
+                            <div class="portfolio-image">
+
+                                    <img src="images/img/portfolio12.jpg" alt="Portfolio 1">
+
+                                <div class="portfolio-overlay">
+                                    <div class="portfolio-desc">
+                                        <h3 class="title-with-bord">Name Card Design</h3>
+                                        <span>Web Design</span>
+                                    </div>
+                                </div>
+                             </div>
+                             </a>
+
+                        </article>
+
+                        <article class="portfolio-item illustrations">
+
+                        <a href="portfolio-single">
+                            <div class="portfolio-image">
+
+                                    <img src="images/img/portfolio13.jpg" alt="Portfolio 1">
+
+                                <div class="portfolio-overlay">
+                                    <div class="portfolio-desc">
+                                        <h3 class="title-with-bord">Backyard Lamp</h3>
+                                        <span>Branding</span>
+                                    </div>
+                                </div>
+                             </div>
+                             </a>
+
+                        </article>
+
+                        <article class="portfolio-item web-design">
+
+                        <a href="portfolio-single">
+                            <div class="portfolio-image">
+
+                                    <img src="images/img/portfolio14.jpg" alt="Portfolio 1">
+
+                                <div class="portfolio-overlay">
+                                    <div class="portfolio-desc">
+                                        <h3 class="title-with-bord">Multipen Box</h3>
+                                        <span>Web Design</span>
+                                    </div>
+                                </div>
+                             </div>
+                             </a>
+
+                        </article>
+
+                        <article class="portfolio-item graphics">
+
+                        <a href="portfolio-single">
+                            <div class="portfolio-image">
+
+                                    <img src="images/img/portfolio17.jpg" alt="Portfolio 1">
+
+                                <div class="portfolio-overlay">
+                                    <div class="portfolio-desc">
+                                        <h3 class="title-with-bord">Plant Meassure Shelf</h3>
+                                        <span>Graphics</span>
+                                    </div>
+                                </div>
+                             </div>
+                             </a>
+
+                        </article>
+
+                        <article class="portfolio-item illustrations">
+
+                        <a href="portfolio-single">
+                            <div class="portfolio-image">
+
+                                    <img src="images/img/portfolio16.jpg" alt="Portfolio 1">
+
+                                <div class="portfolio-overlay">
+                                    <div class="portfolio-desc">
+                                        <h3 class="title-with-bord">Original Table Set</h3>
+                                        <span>Branding</span>
+                                    </div>
+                                </div>
+                             </div>
+                             </a>
+
+                        </article>
+
+                        <article class="portfolio-item graphics">
+
+                        <a href="portfolio-single">
+                            <div class="portfolio-image">
+
+                                    <img src="images/img/portfolio15.jpg" alt="Portfolio 1">
+
+                                <div class="portfolio-overlay">
+                                    <div class="portfolio-desc">
+                                        <h3 class="title-with-bord">Candle Resto Design</h3>
+                                        <span>Graphics</span>
+                                    </div>
+                                </div>
+                             </div>
+                             </a>
+
+                        </article>
+
+                        <article class="portfolio-item ui-elements">
+
+                        <a href="portfolio-single">
+                            <div class="portfolio-image">
+
+                                    <img src="images/img/portfolio20.jpg" alt="Portfolio 1">
+
+                                <div class="portfolio-overlay">
+                                    <div class="portfolio-desc">
+                                        <h3 class="title-with-bord">interior Design</h3>
+                                        <span>UI Elements</span>
+                                    </div>
+                                </div>
+                             </div>
+                             </a>
+
+                        </article>
+
+                        <article class="portfolio-item wide-portfolio web-design">
+
+                        <a href="portfolio-single">
+                            <div class="portfolio-image">
+
+                                    <img src="images/img/portfolio19.jpg" alt="Portfolio 1">
+
+                                <div class="portfolio-overlay">
+                                    <div class="portfolio-desc">
+                                        <h3 class="title-with-bord">Custom Book Case</h3>
+                                        <span>Web Design</span>
+                                    </div>
+                                </div>
+                             </div>
+                             </a>
+
+                        </article>
+
+                        <article class="portfolio-item ui-elements">
+
+                        <a href="portfolio-single">
+                            <div class="portfolio-image">
+
+                                    <img src="images/img/portfolio18.jpg" alt="Portfolio 1">
+
+                                <div class="portfolio-overlay">
+                                    <div class="portfolio-desc">
+                                        <h3 class="title-with-bord">Bamboo Pencil Case</h3>
+                                        <span>UI Elements</span>
+                                    </div>
+                                </div>
+                             </div>
+                             </a>
+
+                        </article>
+
+
+
+
+
+                    </div><!-- #portfolio end -->
+
+
+
+
+                    <!-- Portfolio Script
+                    ============================================= -->
+                    <script type="text/javascript">
+
+                        jQuery(window).load(function(){
+
+                            var $container = $('#portfolio');
+
+                            $container.isotope({ transitionDuration: '0.65s', layoutMode: 'packery', });
+
+                            $('#portfolio-filter a').click(function(){
+                                $('#portfolio-filter li').removeClass('activeFilter');
+                                $(this).parent('li').addClass('activeFilter');
+                                var selector = $(this).attr('data-filter');
+                                $container.isotope({ filter: selector });
+                                return false;
+                            });
+
+
+                            $(window).resize(function() {
+                                $container.isotope('layout');
+                            });
+
+                                // Infinite Scroll
+                                $container.infinitescroll({
+                                    loading: {
+                                finishedMsg: '<i class="icon-line-check"></i>',
+                                msgText: '<i class="icon-line-loader icon-spin"></i>',
+                                img: "images/preloader-dark.gif",
+                                speed: 'normal'
+                                    },
+
+                                state: {
+                                isDone: false
+                                },
+                                    navSelector  : '#load-more-portfolio', 
+                                    nextSelector : '#load-more-portfolio a', 
+                                    itemSelector : 'article.portfolio-item',
+
+                                },
+
+                                // Infinite Scroll Callback
+                                function( newElements ) {
+                            $container.isotope( 'appended', $( newElements ) );
+                            var t = setTimeout( function(){ $container.isotope('layout'); }, 2000 );
+
+                                });
+
+                            $(window).unbind();
+                              $("#load-infinite").click(function(){
+                                    $container.infinitescroll('retrieve');
+                                     return false;
+
+                                });
+                        });
+
+                    </script><!-- Portfolio Script End -->
+            </section>
+
+            <section class="blog-home clearfix">
+
+                <div class="container">
+                    <h3 class="title-with-bord wow fadeIn">BLOGS</h3>
+                    <h2 class="thetitle wow fadeIn">
+                         Collection of Our News & Updates
+                     </h2>
+                    <p class="subtitle wow fadeIn">
+                        We think our work speaks for itself. We craft bespoke websites, digital tools,
+                        info-graphics and logos to bring your message to colorful design
+                     </p>
+
+                <!-- BLog Items
+                    ============================================= -->
+                    <div id="blog-block">
+
+                    <article class="blog-item wide-blog has-post-thumbnail ">
+
+                    <div class="blog-wrap wow fadeInUp">
+
+                           <img src="images/img/blog1.png" alt="Portfolio 1" />
+
+                       <div class="blog-overlay">
+                           <div class="blog-desc">
+
+                           <div class="blog-date">20 MAR, 2015</div>
+
+                           <h3 class="blog-title">DIGITAL DESIGN FOR THE PHYSICAL WORLD</h3>
+                           <p class="blog-excerpt">We think our work speaks for itself. We craft bespoke websites, digital tools, info-graphics and logos to bring websites, digital tools, info-graphics</p>
+                           <a href="#" class="read-more btn">Full Story</a>
+
+                           </div>
+                       </div>
+                    </div>
+                    </article>
+
+
+                     <article class="blog-item has-post-thumbnail ">
+
+                        <div class="blog-wrap wow fadeInUp">
+                               
+                                    <img src="images/img/blog7.jpg" alt="Portfolio 1" />
+                                    <div class="blog-desc">
+                                    <div class="blog-date">19 MAR, 2015</div>
+
+                                    <h3 class="blog-title">We Think Our Work Speaks For Itself</h3>
+                                    <p class="blog-excerpt">We think our work speaks for itself. We craft bespoke websites, digital tools, info-graphics and logos to bring websites, digital tools, info-graphics</p>
+                                    <a href="#" class="read-more btn">Full Story</a>
+
+                                    </div>
+
+                        </div>
+                    </article>
+
+                     <article class="blog-item">
+
+                        <div class="blog-wrap wow fadeInUp">
+                               
+
+
+                                    <div class="blog-desc">
+
+                                    <div class="blog-date">18 MAR, 2015</div>
+
+                                    <h3 class="blog-title">The Art Of Visualizing</h3>
+                                    <p class="blog-excerpt">We think our work speaks for itself. We craft bespoke websites, digital tools, info-graphics and logos to bring websites, digital tools, info-graphics</p>
+                                    <a href="#" class="read-more btn">Full Story</a>
+
+                                    </div>
+
+                        </div>
+                    </article>
+
+                    <article class="blog-item has-post-thumbnail">
+
+                        <div class="blog-wrap wow fadeInUp">
+                               
+                                    <img src="images/img/blog4.jpg" alt="Portfolio 1" />
+                                    <div class="blog-desc">
+                                    <div class="blog-date">17 MAR, 2015</div>
+
+                                    <h3 class="blog-title">We Think Our Work Speaks For Itself</h3>
+                                    <p class="blog-excerpt">We think our work speaks for itself. We craft bespoke websites, digital tools, info-graphics and logos to bring websites, digital tools, info-graphics</p>
+                                    <a href="#" class="read-more btn">Full Story</a>
+
+                                    </div>
+
+                        </div>
+                    </article>
+
+                    <article class="blog-item">
+
+                        <div class="blog-wrap wow fadeInUp">   
+                                    <div class="blog-desc">
+                                    <div class="blog-date">16 MAR, 2015</div>
+                                    <h3 class="blog-title">OUR WORKS WILL SPEAK</h3>
+                                    <p class="blog-excerpt">We think our work speaks for itself. We craft bespoke websites, digital tools, info-graphics and logos</p>
+                                    <a href="#" class="read-more btn">Full Story</a>
+
+                                    </div>
+                        </div>
+                    </article>
+
+                    <article class="blog-item has-post-thumbnail">
+
+                        <div class="blog-wrap wow fadeInUp">
+                               
+                                    <img src="images/img/blog-2.jpg" alt="Portfolio 1" />
+                                    <div class="blog-desc">
+
+                                    <div class="blog-date">15 MAR, 2015</div>
+
+                                    <h3 class="blog-title">The Art Of Visualizing</h3>
+                                    <p class="blog-excerpt">We think our work speaks for itself. We craft bespoke websites, digital tools, info-graphics and logos to bring websites, digital tools, info-graphics</p>
+                                    <a href="#" class="read-more btn">Full Story</a>
+
+                                    </div>
+
+                        </div>
+                    </article>
+
+                    <article class="blog-item wide-blog has-post-thumbnail">
+
+                        <div class="blog-wrap wow fadeInUp">
+                               
+                                    <img src="images/img/blog9.jpg" alt="Portfolio 1" />
+                                    <div class="blog-desc">
+
+                                    <div class="blog-date">14 MAR, 2015</div>
+
+                                    <h3 class="blog-title">DIGITAL DESIGN FOR THE PHYSICAL WORLD</h3>
+                                    <p class="blog-excerpt">We think our work speaks for itself. We craft bespoke websites, digital tools, info-graphics and logos to bring websites, digital tools, info-graphics</p>
+                                    <a href="#" class="read-more btn">Full Story</a>
+
+                                    </div>
+
+                        </div>
+                    </article>
+
+
+
+
+
+
+
+                    </div>
+                </div>
+
+                 <!-- Blog Script
+                    ============================================= -->
+                    <script type="text/javascript">
+
+                        jQuery(window).load(function(){
+
+                            var $containerBlog = $('#blog-block');
+
+                            $containerBlog.isotope({ 
+                                transitionDuration: '0.65s',
+                                    layoutMode: 'packery',
+                            });
+
+                            $(window).resize(function() {
+                                $containerBlog.isotope('layout');
+                            });
+
+                        });
+
+                    </script><!-- Portfolio Script End -->
+            </section>
+
+        </div>
+        <!-- #content-wrapper end -->
+
+
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <div class="footer-top">
+                <div class="logo-footer wow fadeIn">
+                    <img src="images/img/logo.png" alt="Smaze Logo">
+                </div>
+                <p class="subtitle-footer wow fadeIn">
+                    Smaze is the one of the leading creative digital agency in Melobourne, We think our work speaks for itself. We craft be spoke websites, digital tools, info-graphics and logos to bring your message to colorful design We think our work speaks for itself. We craft bespoke websites, digital tools, info-graphics
+                    and logos to bring websites, digital tools, info-graphics
+                </p>
+                <a  class="btn wow fadeIn">Contact</a>
+
+                <div class="footer-social">
+                    <ul class="social-profile">
+                        <li class="twitter"><a href="#"><i class="icon icon-social-twitter"></i></a></li>
+                        <li class="tumbrl"><a href="#"><i class="icon icon-social-tumblr"></i></a></li>
+                        <li class="facebook"><a href="#"><i class="icon icon-social-facebook"></i></a></li>
+                        <li class="youtube"><a href="#"><i class="icon icon-social-youtube"></i></a></li>
+                        <li class="dribble"><a href="#"><i class="icon icon-social-dribbble"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- footer-top end -->
+        </div>
+        <!-- container -->
+
+        <div class="footer-bottom clearfix">
+            <div class="copyright-footer">
+                <p>Copyright &#169; 2015, All Rights Reserved <a href="#">Smaze</a></p>
+            </div>
+        </div>
+        <!-- footer-bottom end -->
+
+    </footer>
+    <!-- footer end -->
+
+
+    </div>
+    <!-- #main wrapper end-->
+
+
+
+
+    <!-- Footer Scripts
+    ============================================= -->
+    <script type="text/javascript" src="js/plugin.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>

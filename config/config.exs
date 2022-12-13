@@ -5,10 +5,15 @@
 # is restricted to this project.
 
 # General application configuration
-use Mix.Config
+import Config
 
 config :hello_heroku,
   ecto_repos: [HelloHeroku.Repo]
+
+# Configures POW lib
+config :hello_heroku, :pow,
+  user: HelloHeroku.Users.User,
+  repo: HelloHeroku.Repo
 
 # Configures the endpoint
 config :hello_heroku, HelloHerokuWeb.Endpoint,

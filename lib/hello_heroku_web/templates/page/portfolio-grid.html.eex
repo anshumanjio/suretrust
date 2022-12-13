@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   
+    <!-- Stylesheets
+	============================================= -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/plugin.css" type="text/css" />
+    <link rel="stylesheet" href="css/font.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    
+    <!--[if lt IE 9]>
+		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+		<![endif]-->
+   
+    <!-- External JavaScripts
+	============================================= -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    
+    <!-- Document Title
+	============================================= -->
+    <title>Sure Trust | Portfolio Alt</title>
+
+</head>
+
+<body>
+    <!-- MAIN WRAPPER -->
+    <div id="main-wrapper" class="animsition clearfix">
+        
+        <!-- HEADER -->
+        <header class="site-header clearfix">
+            <div class="header-wrap">
+                <div class="container">
+                    <!-- Logo
+                        ============================================= -->
+                    <div class="logo">
+                        <a href=""><img src="images/img/logo.png" alt="Smaze Logo">
+                        </a>
+                    </div>
+                    <!-- #logo end -->
+                    <!-- Primary Navigation
+                        ============================================= -->
+                    <button id="menu-icon" class="burger">
+                    <span class="bar bar-1"></span>
+                    <span class="bar bar-2"></span>
+                    <span class="bar bar-3"></span>
+                    <span class="bar bar-4"></span>
+                    </button>
+                    <nav id="main-nav" class="clearfix">
+                        <ul>
+                            <li class="menu-item-has-children">
+                                <a href="/">Home</a>
+                                <ul class="children">
+                                    <li>
+                                        <a href="index-home2">Home 2</a>
+                                    </li>
+                                    <li>
+                                        <a href="index-home3">Home 3</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="about-us" aria-haspopup="true">About</a>
+                            </li>
+                            <li>
+                                <a href="services">Services</a>
+                            </li>
+                            <li class="menu-item-has-children active">
+                                <a href="portfolio">Portfolio</a>
+                                <ul class="children">
+                                    <li>
+                                        <a href="portfolio-grid">Portfolio Alt</a>
+                                    </li>
+                                    <li>
+                                        <a href="portfolio-single">Single Portfolio</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="blog-index">Blog</a>
+                                <ul class="children">
+                                    <li>
+                                        <a href="blog-masonry">Blog Alt</a>
+                                    </li>
+                                    <li>
+                                        <a href="single-post">Single Blog</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="contact">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- #main-nav end -->
+                </div>
+                <!-- header-wrap end -->
+            </div>
+        </header>
+        <!-- header end -->
+
+        <section class="background-header">
+            <h1 class="page-title title-with-bord">Portfolio Alt</h1>
+        </section>
+
+        <!-- CONTENT WRAPPER
+		============================================= -->
+        <div id="content-wrapper">
+            
+            <!-- Portfolio Alt
+             ============================================= -->
+            <section class="portfolio-alt container">
+                
+                <!-- Portfolio Filter
+                ============================================= -->
+                <ul id="portfolio-filter" class="wow fadeIn clearfix">
+
+                    <li class="activeFilter"><a href="#" data-filter="*">All</a>
+                    </li>
+                    <li><a href="#" data-filter=".web-design">Web Design</a>
+                    </li>
+                    <li><a href="#" data-filter=".illustrations">Branding</a>
+                    </li>
+                    <li><a href="#" data-filter=".ui-elements">UI Elements</a>
+                    </li>
+                    <li><a href="#" data-filter=".graphics">Graphics</a>
+                    </li>
+
+                </ul>
+                <!-- #portfolio-filter end -->
+
+                <!-- Portfolio Items
+                ============================================= -->
+                <div id="portfolio" class="wow fadeIn clearfix">
+
+                    <article class="portfolio-item illustrations">
+                    <div class="wow fadeIn">
+                    <a href="portfolio-single">
+                        <div class="portfolio-image">
+                            <img src="images/img/portfolio1.jpg" alt="Portfolio 1">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-desc">
+                                    <h3 class="title-with-bord">Ladder Case</h3>
+                                    <span>Branding</span>
+                                </div>
+                            </div>
+                         </div>
+                         </a>
+                    </div>
+                    </article>
+
+                    <article class="portfolio-item ui-elements">
+                    <div class="wow fadeIn">
+                    <a href="portfolio-single">
+                        <div class="portfolio-image">
+                            <img src="images/img/portfolio2.jpg" alt="Portfolio 1">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-desc">
+                                    <h3 class="title-with-bord">Coolamari</h3>
+                                    <span>UI Elements</span>
+                                </div>
+                            </div>
+                         </div>
+                         </a>
+                         </div>
+                    </article>
+
+                    <article class="portfolio-item illustrations">
+                    <div class="wow fadeIn">
+                    <a href="portfolio-single">
+                        <div class="portfolio-image">
+                            <img src="images/img/portfolio3.jpg" alt="Portfolio 1">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-desc">
+                                    <h3 class="title-with-bord">Company Profile Presentation</h3>
+                                    <span>Branding</span>
+                                </div>
+                            </div>
+                         </div>
+                         </a>
+                    </div>
+                    </article>
+
+                    <article class="portfolio-item web-design">
+                    <div class="wow fadeIn">
+                    <a href="portfolio-single">
+                        <div class="portfolio-image">
+                            <img src="images/img/portfolio4.jpg" alt="Portfolio 1">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-desc">
+                                    <h3 class="title-with-bord">Talk Chair</h3>
+                                    <span>Web Design</span>
+                                </div>
+                            </div>
+                         </div>
+                         </a>
+                    </div>
+                    </article>
+
+                    <article class="portfolio-item graphics">
+                    <div class="wow fadeIn">
+                    <a href="portfolio-single">
+                        <div class="portfolio-image">
+                            <img src="images/img/portfolio7.jpg" alt="Portfolio 1">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-desc">
+                                    <h3 class="title-with-bord">Ipad Mockup</h3>
+                                    <span>Graphics</span>
+                                </div>
+                            </div>
+                         </div>
+                         </a>
+                    </div>
+                    </article>
+
+                    <article class="portfolio-item illustrations">
+                    <div class="wow fadeIn">
+                    <a href="portfolio-single">
+                        <div class="portfolio-image">
+                            <img src="images/img/portfolio6.jpg" alt="Portfolio 1">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-desc">
+                                    <h3 class="title-with-bord">Oak Furnished Chair</h3>
+                                    <span>Branding</span>
+                                </div>
+                            </div>
+                         </div>
+                         </a>
+                    </div>
+                    </article>
+
+                    <article class="portfolio-item graphics">
+                    <div class="wow fadeIn">
+                    <a href="portfolio-single">
+                        <div class="portfolio-image">
+                            <img src="images/img/portfolio5.jpg" alt="Portfolio 1">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-desc">
+                                    <h3 class="title-with-bord">Name Board</h3>
+                                    <span>Graphics</span>
+                                </div>
+                            </div>
+                         </div>
+                         </a>
+                    </div>
+                    </article>
+
+                    <article class="portfolio-item ui-elements">
+                    <div class="wow fadeIn">
+                    <a href="portfolio-single">
+                        <div class="portfolio-image">
+                            <img src="images/img/portfolio10.jpg" alt="Portfolio 1">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-desc">
+                                    <h3 class="title-with-bord">Reformed Book Shelf</h3>
+                                    <span>UI Elements</span>
+                                </div>
+                            </div>
+                         </div>
+                         </a>
+                    </div>
+                    </article>
+
+                    <article class="portfolio-item wide-portfolio ui-elements">
+                    <div class="wow fadeIn">
+                    <a href="portfolio-single">
+                        <div class="portfolio-image">
+                            <img src="images/img/portfolio9.jpg" alt="Portfolio 1">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-desc">
+                                    <h3 class="title-with-bord">Clean Shoe Case</h3>
+                                    <span>UI Elements</span>
+                                </div>
+                            </div>
+                         </div>
+                         </a>
+                    </div>
+                    </article>
+
+                    <article class="portfolio-item ui-elements">
+                    <div class="wow fadeIn">
+                    <a href="portfolio-single">
+                        <div class="portfolio-image">
+                            <img src="images/img/portfolio8.jpg" alt="Portfolio 1">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-desc">
+                                    <h3 class="title-with-bord">Office Stationary</h3>
+                                    <span>UI Elements</span>
+                                </div>
+                            </div>
+                         </div>
+                         </a>
+                    </div>
+                    </article>
+
+                </div>
+                <!-- #portfolio end -->
+
+                <!-- Infinite Load Button
+                ============================================= -->
+                <div id="load-more-portfolio">
+                    <a href="index-infinite-2"></a>
+                </div>
+                <button id="load-infinite">Load More</button>
+                <!-- infinite load button end -->
+
+                <!-- Portfolio Script
+                ============================================= -->
+                <script type="text/javascript">
+                jQuery(window).load(function() {
+
+                    var $container = $('#portfolio');
+
+                    $container.isotope({
+                        transitionDuration: '0.65s',
+                        layoutMode: 'packery',
+                    });
+
+                    $('#portfolio-filter a').click(function() {
+                        $('#portfolio-filter li').removeClass('activeFilter');
+                        $(this).parent('li').addClass('activeFilter');
+                        var selector = $(this).attr('data-filter');
+                        $container.isotope({
+                            filter: selector
+                        });
+                        return false;
+                    });
+
+
+                    $(window).resize(function() {
+                        $container.isotope('layout');
+                    });
+
+                    // Infinite Scroll
+                    $container.infinitescroll({
+                            loading: {
+                                finishedMsg: 'There is no more',
+                                msgText: 'loading',
+                                speed: 'normal'
+                            },
+
+                            state: {
+                                isDone: false
+                            },
+                            navSelector: '#load-more-portfolio',
+                            nextSelector: '#load-more-portfolio a',
+                            itemSelector: 'article.portfolio-item',
+
+                        },
+
+                        // Infinite Scroll Callback
+                        function(newElements) {
+                            $container.isotope('appended', $(newElements));
+                            var t = setTimeout(function() {
+                                $container.isotope('layout');
+                            }, 2000);
+
+                        });
+
+                    $(window).unbind();
+                    $("#load-infinite").click(function() {
+                        $container.infinitescroll('retrieve');
+                        return false;
+
+                    });
+                });
+                </script>
+                <!-- Portfolio Script End -->
+
+            </section>
+            <!-- poertfolio alt end -->
+
+        </div>
+        <!-- #content-wrapper end -->
+        
+        <!-- FOOTER
+        ============================================= -->
+        <footer class="site-footer">
+            <div class="container">
+
+                <!-- Footer Top
+                ============================================= -->
+                <div class="footer-top">
+                    <div class="logo-footer wow fadeIn">
+                        <img src="images/img/logo.png" alt="Smaze Logo">
+                    </div>
+                    <p class="subtitle-footer wow fadeIn">
+                        Smaze is the one of the leading creative digital agency in Melobourne, We think our work speaks for itself. We craft be spoke websites, digital tools, info-graphics and logos to bring your message to colorful design We think our work speaks for itself. We craft bespoke websites, digital tools, info-graphics and logos to bring websites, digital tools, info-graphics
+                    </p>
+                    <a href="contact" class="btn wow fadeIn">Contact</a>
+                    <div class="footer-social">
+                        <ul class="social-profile">
+                            <li class="twitter"><a href="www.twitter.com"><i class="icon icon-social-twitter"></i></a></li>
+                            <li class="facebook"><a href="www.faceboook.com"><i class="icon icon-social-facebook"></i></a></li>
+                            <li class="youtube"><a href="www.youtube.com"><i class="icon icon-social-youtube"></i></a></li>
+                            <li class="dribble"><a href="www.dribbble.com"><i class="icon icon-social-dribbble"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- footer-top end -->
+            </div>
+            <!-- container -->
+        
+            <!-- Footer Bottom
+            ============================================= -->
+            <div class="footer-bottom clearfix">
+                <div class="copyright-footer">
+                    <p>Copyright &#169; 2015, All Rights Reserved <a href="http://www.themesawesome.com/">Themes Awesome</a>
+                    </p>
+                </div>
+            </div>
+            <!-- footer-bottom end -->
+
+        </footer>
+        <!-- footer end -->
+
+    </div>
+    <!-- #main wrapper end-->
+
+    <!-- Footer Scripts
+    ============================================= -->
+    <!-- external -->
+    <script type="text/javascript" src="js/plugin.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>

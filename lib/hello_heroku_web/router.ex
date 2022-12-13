@@ -1,5 +1,6 @@
 defmodule HelloHerokuWeb.Router do
   use HelloHerokuWeb, :router
+  use Pow.Phoenix.Router
 
   pipeline :browser do
     plug :accepts, ["html"]
@@ -13,10 +14,30 @@ defmodule HelloHerokuWeb.Router do
     plug :accepts, ["json"]
   end
 
+  scope "/" do
+    pipe_through :browser
+
+    pow_routes()
+  end
+
   scope "/", HelloHerokuWeb do
     pipe_through :browser
 
     get "/", PageController, :index
+    get "/show", PageController, :show
+    get "/about-us", PageController, :about_us
+    get "/blog-index", PageController, :blog_index
+    get "/blog-masonry", PageController, :blog_masonry
+    get "/contact", PageController, :contact
+    get "/index-home2", PageController, :index_home2
+    get "/index-home3", PageController, :index_home3
+    get "/index-infinite_2", PageController, :index_infinite_2
+    get "/portfolio-grid", PageController, :portfolio_grid
+    get "/portfolio-single", PageController, :portfolio_single
+    get "/portfolio", PageController, :portfolio
+    get "/services", PageController, :services
+    get "/single-post", PageController, :single_post
+
     resources "/users", UserController
   end
 

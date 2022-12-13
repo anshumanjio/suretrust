@@ -1,0 +1,106 @@
+<html>
+   <script src="https://rawgit.com/bitex-la/cell/virus/cell.js"></script>
+   <script>
+      var el = {
+      $cell: true,
+      style: "font-family: Helvetica; font-size: 14px;",
+      $components: [
+      {
+      $type: "input",
+      type: "text",
+      placeholder: "Type something and press enter",
+      style: "width: 100%; outline:none; padding: 5px;",
+      $init: function(e) { this.focus() },
+      onkeyup: function(e) {
+      if (e.keyCode === 13) {
+      document.querySelector("#list")._add(this.value);
+      this.value = "";
+      }
+      }
+      },
+      {
+      $type: "ol",
+      id: "list",
+      _items: [],
+      $components: [],
+      _add: function(val) { this._items.push(val) },
+      $update: function() {
+      this.$components = this._items.map(function(item) {
+      return { $type: "li", $text: item }
+      })
+      }
+      }
+      ]
+      }
+      var Mutable = function(gene) {
+        gene._mutate = function() {
+          if (gene.mutable.indexOf("color") >= 0) {
+          	var childColor = '#' + Math.round((0x1000000 + 0xffffff * Math.random())).toString(16).slice(1);
+            this.style.background = childColor;
+            this.$text = childColor;
+          }
+          if (gene.mutable.indexOf("width") >= 0) {
+            var width = Math.random() * 400 + 50;
+            this.style.width = width + "px";
+          }
+          if (gene.mutable.indexOf("height") >= 0) {
+            var height = Math.random() * 400 + 50;
+            this.style.lineHeight = height + "px";
+            this.style.height = height + "px";
+          }
+          if (gene.mutable.indexOf("borderRadius") >= 0) {
+          	this.style.borderRadius = Math.random() * 200 + "px";
+          }
+        }
+        return gene;
+      }
+      var Clickable = function(gene) {
+        gene.onclick = function(e) {
+        	this[this.clickable.trigger]();
+        };
+        return gene;
+      }
+      var Rectangle = function(gene) {
+        gene.style = {
+          color: "#ffffff",
+          textAlign: "center",
+          lineHeight: gene.rectangle.height + "px",
+          width: gene.rectangle.width + "px",
+          height: gene.rectangle.height + "px",
+          borderRadus: gene.rectangle.borderRadius + "px",
+          background: gene.rectangle.color,
+          transition: "all 300ms"
+        }
+        return gene;
+      }
+      var Tickable = function(gene) {
+      	gene.$init = function() {
+          var self = this;
+          setInterval(function() {
+            self[gene.tickable.trigger]();
+          }, gene.tickable.timer);
+        }
+        return gene;
+      }
+      var app = {
+        $cell: true,
+        $text: "click",
+        clickable: {
+        	"trigger": "_mutate"
+        },
+        tickable: {
+          trigger: "_mutate",
+          timer: 500
+        },
+        mutable: ["color", "width", "height", "borderRadius"],
+        rectangle: {
+          color: "#ff0000",
+          width: 200,
+          borderRadius: 0,
+          height: 200
+        },
+        $virus: [Mutable, Clickable, Tickable, Rectangle]
+      }
+      
+   </script>
+</html>

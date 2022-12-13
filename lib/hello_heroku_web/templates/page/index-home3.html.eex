@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <!-- Stylesheets
+    ============================================= -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/plugin.css" type="text/css" />
+    <link rel="stylesheet" href="css/font.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+    <!-- revolution slider -->
+    <link rel="stylesheet" href="css/extralayers.css" type="text/css" />
+    <link rel="stylesheet" href="css/navstylechange.css" type="text/css" />
+
+    <!-- External Stylesheets
+    ============================================= -->
+    <link rel="stylesheet" type="text/css" href="css/settings.css" media="screen" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <!-- External JavaScripts
+    ============================================= -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+
+    <!-- Document Title
+    ============================================= -->
+    <title>Sure Trust | Multipurpose HTML Template</title>
+
+</head>
+
+<body>
+    <!-- MAIN WRAPPER -->
+    <div id="main-wrapper" class="animsition clearfix">
+        <!-- HEADER -->
+         <!-- HEADER -->
+        <header class="site-header clearfix">
+            <div class="header-wrap">
+                <div class="container">
+                    <!-- Logo
+                        ============================================= -->
+                    <div class="logo">
+                        <a href=""><img src="images/img/logo.png" alt="Smaze Logo">
+                        </a>
+                    </div>
+                    <!-- #logo end -->
+                    <!-- Primary Navigation
+                        ============================================= -->
+                    <button id="menu-icon" class="burger">
+                    <span class="bar bar-1"></span>
+                    <span class="bar bar-2"></span>
+                    <span class="bar bar-3"></span>
+                    <span class="bar bar-4"></span>
+                    </button>
+                    <nav id="main-nav" class="clearfix">
+                        <ul>
+                            <li class="menu-item-has-children active">
+                                <a href="/">Home</a>
+                                <ul class="children">
+                                    <li>
+                                        <a href="index-home2">Home 2</a>
+                                    </li>
+                                    <li>
+                                        <a href="index-home3">Home 3</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="about-us" aria-haspopup="true">About</a>
+                            </li>
+                            <li>
+                                <a href="services">Services</a>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="portfolio">Portfolio</a>
+                                <ul class="children">
+                                    <li>
+                                        <a href="portfolio-grid">Portfolio Alt</a>
+                                    </li>
+                                    <li>
+                                        <a href="portfolio-single">Single Portfolio</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="blog-index">Blog</a>
+                                <ul class="children">
+                                    <li>
+                                        <a href="blog-masonry">Blog Alt</a>
+                                    </li>
+                                    <li>
+                                        <a href="single-post">Single Blog</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="contact">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- #main-nav end -->
+                </div>
+                <!-- header-wrap end -->
+            </div>
+        </header>
+        <!-- header end -->
+
+            <!-- Revolution Slider
+            ============================================= -->
+            <div class="bannercontainer">
+            <div class="banner">
+                <ul>
+                 <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" data-saveperfomance="off">
+                   <img src="images/img/home-slide.jpg" alt="slide1">
+                   <div class="caption sfb btn"  data-x="810" data-y="365" data-speed="1000" data-start="2500" data-easing="stl">BUY NOW</div>
+                   <div class="caption sft"  data-x="551" data-y="185" data-speed="1000" data-start="2050"><h1 class="tx-title">Design is <span class="tx-color">Creativity</span></h1></div>
+                   <div class="caption sft"  data-x="665" data-y="230" data-speed="1000" data-start="2200" data-easing="stl"><h1 class="tx-title">with <span class="tx-color">Strategy</span></h1></div>
+                   <div class="caption sft"  data-x="634" data-y="302" data-speed="1000" data-start="2100" data-easing="stl"><h4 class="tx-dsc">We craft experiences for the web</h4></div>
+                   <div class="caption sft"  data-x="586" data-y="325" data-speed="1000" data-start="2000" data-easing="stl"><h4 class="tx-dsc">helping brands speak in a digital world</h4></div>
+                 </li>
+                 <li data-transition="fade" data-slotamount="7" data-masterspeed="1500">
+                   <img src="images/img/home-slide2.jpg" alt="slide2">
+                   <div class="caption sfb btn"  data-x="400" data-y="370" data-speed="1000" data-start="2500" data-easing="stl">BUY NOW</div>
+                   <div id="slide-title" class="caption lft large_text"  data-x="75" data-y="200" data-speed="1000" data-start="2000" data-easing="stl">MAKE TODAY RIDICULOUSLY AMAZING</div>
+                   <div class="caption lft medium_text"  data-x="145" data-y="320" data-speed="1000" data-start="2000" data-easing="stl">We craft experiences for the web helping brands speak in a digital world</div>
+                 </li>
+                 <li data-transition="fade" data-slotamount="7" data-masterspeed="1500">
+                   <img src="images/img/home-slide3.jpg" alt="slide3">
+                   <div class="caption sfb btn"  data-x="-80" data-y="365" data-speed="1000" data-start="2500" data-easing="stl">BUY NOW</div>
+                   <div class="caption lft large_bold_white"  data-x="-82" data-y="140" data-speed="1000" data-start="2400" data-easing="stl"><span class="tt-slide">IMAGINATION</span></div>
+                   <div class="caption lft large_text"  data-x="-78" data-y="190" data-speed="1000" data-start="2300" data-easing="stl"><h4 class="tx-border">IS MORE IMPORTANT THAN</h4></div>
+                   <div class="caption lft lft large_bold_white"  data-x="-82" data-y="240" data-speed="1000" data-start="2200" data-easing="stl"><span class="tt-slide2">KNOWLEDGE</span></div>
+                   <div class="caption lft"  data-x="-80" data-y="302" data-speed="1000" data-start="2100" data-easing="stl"><h4 class="tx-dsc2">We craft experiences for the web</h4></div>
+                   <div class="caption lft"  data-x="-80" data-y="325" data-speed="1000" data-start="2000" data-easing="stl"><h4 class="tx-dsc2">helping brands speak in a digital world</h4></div>
+                 </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Revolution slider end -->
+
+
+        <!-- CONTENT WRAPPER
+        ============================================= -->
+        <div id="content-wrapper">
+
+            <!-- Process
+            ============================================= -->
+            <section class="process">
+                            
+                <div class="container">
+                    <h3 class="title-with-bord wow fadeIn">Process</h3>
+                    <h2 class="thetitle wow fadeIn">
+                         The Way of Our WorkFlow
+                     </h2>
+                    <p class="subtitle wow fadeIn">
+                    Our process is highly collaborative with us you are a
+                    partner with a key seat at the table 
+                     </p>
+        
+                <!-- Tabpanel
+                ============================================= -->
+                <div role="tabpanel">
+                    <!-- Nav tabs -->
+                    <div class="filtering-process col-md-6" role="tablist" id="planTabs">
+                    <ul>
+                        
+                        <li role="presentation" class="feature-box-process active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab" class="feature-icon hi-icon-effect-1 hi-icon-effect-1a"><i class="smaze icon-pencil-ruler hi-icon"></i><h6>Plan</h6></a></li>
+                        <li role="presentation" class="feature-box-process"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab" class="feature-icon hi-icon-effect-1 hi-icon-effect-1a"><i class="smaze icon-screen hi-icon"></i><h6>Design</h6></a></li>
+                        <li role="presentation" class="feature-box-process"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab" class="feature-icon hi-icon-effect-1 hi-icon-effect-1a"><i class="icon-layers hi-icon"></i><h6>Build</h6></a></li>
+                        <li role="presentation" class="feature-box-process"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab" class="feature-icon hi-icon-effect-1 hi-icon-effect-1a"><i class="icon-cloud-upload hi-icon"></i><h6>Launch</h6></a></li>
+                    </ul>
+                    <span class="bord-process-1"></span>
+                    <span class="bord-process-2"></span>
+
+                    </div>
+
+                    <!-- Tab panes -->
+                    <div class="desc-process-tab col-md-6">
+                        
+                        <div role="tabpanel" class="process-desc fade in active" id="home">
+                            <h3 class="dark-title-with-bord">Plan</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                            <a href="portfolio" class="btn">Start Project</a>
+                        </div>
+
+                        <div role="tabpanel" class="process-desc fade in" id="profile">
+                            <h3 class="dark-title-with-bord">DESIGN</h3>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                            <a href="portfolio" class="btn">Start Project</a>
+                        </div>
+
+                        <div role="tabpanel" class="process-desc fade in" id="messages">
+                            <h3 class="dark-title-with-bord">BUILD</h3>
+                            <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                            <a href="portfolio" class="btn">Start Project</a>
+                        </div>
+
+                        <div role="tabpanel" class="process-desc fade in" id="settings">
+                            <h3 class="dark-title-with-bord">LAUNCH</h3>
+                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. </p>
+                            <a href="portfolio" class="btn">Start Project</a>
+                        </div>
+
+                    </div>
+                    <!-- desc-process-tab end -->
+                </div>
+                <!-- tabpanel end -->
+
+                </div>
+                <!-- container end -->
+
+            </section>
+            <!-- process end -->
+
+            <!-- Team Section
+            ============================================= -->
+            <section class="team clearfix">
+
+                <div class="container">
+                    <h3 class="title-with-bord wow fadeIn">Our Team</h3>
+                    <h2 class="thetitle wow fadeIn"> We Worked in Fluid Team</h2>
+                    <p class="subtitle wow fadeIn">We're a team of makers, thinkers, explorers, creators and theatre singers. We're serious about delivering great outcomes.</p>
+                </div>
+
+                <!-- The Team
+                ============================================= -->
+                <div class="theteam clearfix">
+                    
+                    <!-- Team Left Side
+                    ============================================= -->
+                    <div class="team-left">
+
+                        <!-- tab panel start -->
+                        <div role="tabpanel" class="team-person fade in active" id="smith">
+                            <div class="overlay"></div>
+                            <div class="team-detail">
+                                <h3 class="name">Steven Smith</h3>
+                                <h5 class="title-with-bord white-title job">Creative Director</h5>
+                                <p class="desc">While designing, we put special attention to smallest details and make sure your users feel more comfortable browsing your website than the ones your competitors have. Since there is more to it than just being beautiful, we put a lot of energy into creative process and think about your goals, needs, visitors and more</p>
+                                <div class="dark-social-icon">
+                                    <a href="https://www.facebook.com/" class="facebook"><i class="smaze icon-facebook"></i></a>
+                                    <a href="https://www.twitter.com/" class="twitter"><i class="smaze icon-twitter-alt"></i></a>
+                                    <a href="https://www.linkedin.com/" class="linkedin"><i class="smaze icon-linkedin-1"></i></a>
+                                    <a href="https://www.skype.com/" class="skype"><i class="smaze icon-skype"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- tabpanel end -->
+
+                        <!-- tab panel start -->
+                        <div role="tabpanel" class="team-person fade in" id="joe">
+                            <div class="overlay"></div>
+                            <div class="team-detail">
+                                <h3 class="name">Henry Jors</h3>
+                                <h5 class="title-with-bord white-title job">Manager Marketing</h5>
+                                <p class="desc">While designing, we put special attention to smallest details and make sure your users feel more comfortable browsing your website than the ones your competitors have. Since there is more to it than just being beautiful, we put a lot of energy into creative process and think about your goals, needs, visitors and more</p>
+                                <div class="dark-social-icon">
+                                    <a href="https://www.facebook.com/" class="facebook"><i class="smaze icon-facebook"></i></a>
+                                    <a href="https://www.twitter.com/" class="twitter"><i class="smaze icon-twitter-alt"></i></a>
+                                    <a href="https://www.linkedin.com/" class="linkedin"><i class="smaze icon-linkedin-1"></i></a>
+                                    <a href="https://www.skype.com/" class="skype"><i class="smaze icon-skype"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- tabpanel end -->
+
+                        <!-- tab panel start -->
+                        <div role="tabpanel" class="team-person fade in" id="will">
+                            <div class="overlay"></div>
+                            <div class="team-detail">
+                                <h3 class="name">Kane Lee</h3>
+                                <h5 class="title-with-bord white-title job">CEO</h5>
+                                <p class="desc">While designing, we put special attention to smallest details and make sure your users feel more comfortable browsing your website than the ones your competitors have. Since there is more to it than just being beautiful, we put a lot of energy into creative process and think about your goals, needs, visitors and more</p>
+                                <div class="dark-social-icon">
+                                    <a href="https://www.facebook.com/" class="facebook"><i class="smaze icon-facebook"></i></a>
+                                    <a href="https://www.twitter.com/" class="twitter"><i class="smaze icon-twitter-alt"></i></a>
+                                    <a href="https://www.linkedin.com/" class="linkedin"><i class="smaze icon-linkedin-1"></i></a>
+                                    <a href="https://www.skype.com/" class="skype"><i class="smaze icon-skype"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- tabpanel end -->
+
+                        <!-- tab panel start -->
+                        <div role="tabpanel" class="team-person fade in" id="liam">
+                            <div class="overlay"></div>
+                            <div class="team-detail">
+                                <h3 class="name">Jhon Doe</h3>
+                                <h5 class="title-with-bord white-title job">CEO of DH Agency</h5>
+                                <p class="desc">While designing, we put special attention to smallest details and make sure your users feel more comfortable browsing your website than the ones your competitors have. Since there is more to it than just being beautiful, we put a lot of energy into creative process and think about your goals, needs, visitors and more</p>
+                                <div class="dark-social-icon">
+                                    <a href="https://www.facebook.com/" class="facebook"><i class="smaze icon-facebook"></i></a>
+                                    <a href="https://www.twitter.com/" class="twitter"><i class="smaze icon-twitter-alt"></i></a>
+                                    <a href="https://www.linkedin.com/" class="linkedin"><i class="smaze icon-linkedin-1"></i></a>
+                                    <a href="https://www.skype.com/" class="skype"><i class="smaze icon-skype"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- tabpanel end -->
+
+                    </div>
+                    <!-- team-left end -->
+
+                    <!-- Team Right Side
+                    ============================================= -->
+                    <div class="team-right">
+
+                        <div class="team-list" role="tablist">
+                            <div role="presentation" class="team-list-person active">                        
+                                <a href="#smith" aria-controls="smith" role="tab" data-toggle="tab" class="team-img">
+                                <img src="images/img/team/4.jpg" alt="team4"></a>
+                            </div>
+                        </div>
+                        <!-- team-list end -->
+
+                        <div class="team-list" role="tablist">
+                            <div role="presentation" class="team-list-person">
+                                <a href="#joe" aria-controls="joe" role="tab" data-toggle="tab" class="team-img">
+                                <img src="images/img/team/3.jpg" alt="team2"></a>
+                            </div>
+                        </div>
+                        <!-- team-list end -->
+
+                        <div class="team-list" role="tablist">
+                            <div role="presentation" class="team-list-person">
+                                <a href="#will" aria-controls="will" role="tab" data-toggle="tab" class="team-img">
+                                <img src="images/img/team/2.jpg" alt="team2"></a>
+                            </div>
+                        </div>
+                        <!-- team-list end -->
+
+                        <div class="team-list" role="tablist">
+                            <div role="presentation" class="team-list-person">
+                                <a href="#liam" aria-controls="liam" role="tab" data-toggle="tab" class="team-img">
+                                <img src="images/img/team/1.jpg" alt="team2"></a>
+                            </div>
+                        </div>
+                        <!-- team-list end -->
+
+                    </div>
+                    <!-- team-right end -->
+
+                </div>
+                <!-- theteam end -->
+
+            </section>
+            <!-- team section end -->
+
+            
+            <!-- Client Section
+            ============================================= -->
+            <section class="client container clearfix">
+
+                <div class="container">
+                    <h3 class="title-with-bord wow fadeIn">Clients</h3>
+                    <h2 class="thetitle wow fadeIn">Our Awesome Clients</h2>
+                    <p class="subtitle wow fadeIn">We think our work speaks for itself. We craft bespoke websites, digital tools, info-graphics and logos to bring your message to colorful design.</p>
+                </div>
+
+                <!-- The Client
+                ============================================= -->
+                <div class="theclient clearfix">
+                    
+                    <div class="client-item col-md-4">
+                        <img src="images/img/client/1.png" alt="">
+                    </div>
+
+                    <div class="client-item col-md-4">
+                        <img src="images/img/client/2.png" alt="">
+                    </div>
+
+                    <div class="client-item col-md-4">
+                        <img src="images/img/client/3.png" alt="">
+                    </div>
+
+                    <div class="client-item col-md-4">
+                        <img src="images/img/client/4.png" alt="">
+                    </div>
+
+                    <div class="client-item col-md-4">
+                        <img src="images/img/client/5.png" alt="">
+                    </div>
+
+                    <div class="client-item col-md-4">
+                        <img src="images/img/client/6.png" alt="">
+                    </div>
+
+                    <div class="client-item col-md-4">
+                        <img src="images/img/client/7.png" alt="">
+                    </div>
+
+                    <div class="client-item col-md-4">
+                        <img src="images/img/client/8.png" alt="">
+                    </div>
+
+                    <div class="client-item col-md-4">
+                        <img src="images/img/client/9.png" alt="">
+                    </div>
+
+                </div>
+                <!-- theclient end -->
+
+            </section>
+            <!-- client section end -->
+
+            <!-- Testimonial Section
+            ============================================= -->
+            <section class="testimonial-builder">
+
+                <div class="testimonial-wrap">
+
+                    <div class="testimonial-item flexslider">
+                        <ul class="slides">
+                            <li>
+                                <div class="testimoni-author">
+                                    <img src="images/img/ava/ava4.jpg" alt="ava1">
+                                    <h4 class="author">Kane Lee <cite>CEO of DH Agency</cite></h4>
+                                </div>
+                                <p class="testimonial-text">
+                                Aenean adipiscing non urna at viverra. Ut lobortis mattis massa. Fusce faucibus dignissim ligula, eu vestibulum enim feugiat ut. Pellentesque fringilla non sem sed interdum. Integer gravida aliquam condimentum.
+                                </p>
+                                <i class="smaze icon-quote-right testi-quote"></i>
+                            </li>
+                            <li>
+                                <div class="testimoni-author">
+                                    <img src="images/img/ava/ava2.jpg" alt="ava2">
+                                    <h4 class="author">Yon Ohi <cite>CEO</cite></h4>
+                                </div>
+                                <p class="testimonial-text">
+                                Aenean adipiscing non urna at viverra. Ut lobortis mattis massa. Fusce faucibus dignissim ligula, eu vestibulum enim feugiat ut. Pellentesque fringilla non sem sed interdum. Integer gravida aliquam condimentum. </p>
+                                <i class="smaze icon-quote-right testi-quote"></i>
+                            </li>
+                            <li>
+                                <div class="testimoni-author">
+                                    <img src="images/img/ava/ava3.jpg" alt="ava3">
+                                    <h4 class="author">Yon Ohi <cite>MARKETING MANAGER</cite></h4>
+                                </div>
+                                <p class="testimonial-text">
+                                Aenean adipiscing non urna at viverra. Ut lobortis mattis massa. Fusce faucibus dignissim ligula, eu vestibulum enim feugiat ut. Pellentesque fringilla non sem sed interdum. Integer gravida aliquam condimentum.</p> 
+                                <i class="smaze icon-quote-right testi-quote"></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Testimonial Item end -->
+                </div>
+                <!-- Testimonial Wrap end -->
+            </section>
+            <!-- testimonial-builder end -->
+
+            <!-- Blog Section
+            ============================================= -->
+            <section class="blog-home clearfix">
+
+                <div class="container">
+                    <h3 class="title-with-bord wow fadeIn">BLOGS</h3>
+                    <h2 class="thetitle wow fadeIn">
+                         Collection of Our News & Updates
+                     </h2>
+                    <p class="subtitle wow fadeIn">
+                        We think our work speaks for itself. We craft bespoke websites, digital tools,
+                        info-graphics and logos to bring your message to colorful design
+                     </p>
+
+                    <!-- Blog Items
+                    ============================================= -->
+                    <div id="blog-block">
+
+                    <article class="blog-item wide-blog has-post-thumbnail ">
+                    <div class="blog-wrap wow fadeInUp">
+                        <img src="images/img/blog1.png" alt="Portfolio 1" />
+                        <div class="blog-overlay">
+                           <div class="blog-desc">
+                               <div class="blog-date">20 MAR, 2015</div>
+                               <h3 class="blog-title">DIGITAL DESIGN FOR THE PHYSICAL WORLD</h3>
+                               <p class="blog-excerpt">We think our work speaks for itself. We craft bespoke websites, digital tools, info-graphics and logos to bring websites, digital tools, info-graphics</p>
+                               <a href="single-post" class="read-more btn">Full Story</a>
+                           </div>
+                       </div>
+                    </div>
+                    </article>
+
+                     <article class="blog-item has-post-thumbnail ">
+                        <div class="blog-wrap wow fadeInUp"> 
+                            <img src="images/img/blog7.jpg" alt="Portfolio 1" />
+                            <div class="blog-desc">
+                                <div class="blog-date">19 MAR, 2015</div>
+                                <h3 class="blog-title">We Think Our Work Speaks For Itself</h3>
+                                <p class="blog-excerpt">We think our work speaks for itself. We craft bespoke websites, digital tools, info-graphics and logos to bring websites, digital tools, info-graphics</p>
+                                <a href="single-post" class="read-more btn">Full Story</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="blog-item">
+                        <div class="blog-wrap wow fadeInUp">
+                            <div class="blog-desc">
+                                <div class="blog-date">18 MAR, 2015</div>
+                                <h3 class="blog-title">The Art Of Visualizing</h3>
+                                <p class="blog-excerpt">We think our work speaks for itself. We craft bespoke websites, digital tools, info-graphics and logos to bring websites, digital tools, info-graphics</p>
+                                <a href="single-post" class="read-more btn">Full Story</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="blog-item has-post-thumbnail">
+                        <div class="blog-wrap wow fadeInUp">                           
+                            <img src="images/img/blog4.jpg" alt="Portfolio 1" />
+                            <div class="blog-desc">
+                                <div class="blog-date">17 MAR, 2015</div>
+                                <h3 class="blog-title">We Think Our Work Speaks For Itself</h3>
+                                <p class="blog-excerpt">We think our work speaks for itself. We craft bespoke websites, digital tools, info-graphics and logos to bring websites, digital tools, info-graphics</p>
+                                <a href="single-post" class="read-more btn">Full Story</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="blog-item">
+                        <div class="blog-wrap wow fadeInUp">   
+                            <div class="blog-desc">
+                                <div class="blog-date">16 MAR, 2015</div>
+                                <h3 class="blog-title">OUR WORKS WILL SPEAK</h3>
+                                <p class="blog-excerpt">We think our work speaks for itself. We craft bespoke websites, digital tools, info-graphics and logos We think our work speaks for itself. We craft bespoke websites, digital tools, info</p>
+                                <a href="single-post" class="read-more btn">Full Story</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="blog-item has-post-thumbnail">
+                        <div class="blog-wrap wow fadeInUp">
+                            <img src="images/img/blog-2.jpg" alt="Portfolio 1" />
+                            <div class="blog-desc">
+                                <div class="blog-date">15 MAR, 2015</div>
+                                <h3 class="blog-title">The Art Of Visualizing</h3>
+                                <p class="blog-excerpt">We think our work speaks for itself. We craft bespoke websites, digital tools, info-graphics and logos to bring websites, digital tools, info-graphics</p>
+                                <a href="single-post" class="read-more btn">Full Story</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="blog-item wide-blog has-post-thumbnail">
+                        <div class="blog-wrap wow fadeInUp">
+                            <img src="images/img/blog9.jpg" alt="Portfolio 1" />
+                            <div class="blog-desc">
+                                <div class="blog-date">14 MAR, 2015</div>
+                                <h3 class="blog-title">DIGITAL DESIGN FOR THE PHYSICAL WORLD</h3>
+                                <p class="blog-excerpt">We think our work speaks for itself. We craft bespoke websites, digital tools, info-graphics and logos to bring websites, digital tools, info-graphics</p>
+                                <a href="single-post" class="read-more btn">Full Story</a>
+                           </div>
+                        </div>
+                    </article>
+
+                    </div>
+                    <!-- blog-block end -->
+                </div>
+                <!-- container end -->
+
+                <!-- Blog Script
+                ============================================= -->
+                <script type="text/javascript">
+                    jQuery(window).load(function(){
+                        var $containerBlog = $('#blog-block');
+                        $containerBlog.isotope({ 
+                            transitionDuration: '0.65s',
+                                layoutMode: 'packery',
+                        });
+                        $(window).resize(function() {
+                            $containerBlog.isotope('layout');
+                        });
+
+                    });
+                </script><!-- Blog Script End -->
+            </section>
+            <!-- blog section end -->
+
+        </div>
+        <!-- #content-wrapper end -->
+
+
+        <!-- FOOTER
+        ============================================= -->
+        <footer class="site-footer">
+            <div class="container">
+
+                <!-- Footer Top
+                ============================================= -->
+                <div class="footer-top">
+                    <div class="logo-footer wow fadeIn">
+                        <img src="images/img/logo.png" alt="Smaze Logo">
+                    </div>
+                    <p class="subtitle-footer wow fadeIn">
+                        Smaze is the one of the leading creative digital agency in Melobourne, We think our work speaks for itself. We craft be spoke websites, digital tools, info-graphics and logos to bring your message to colorful design We think our work speaks for itself. We craft bespoke websites, digital tools, info-graphics and logos to bring websites, digital tools, info-graphics
+                    </p>
+                    <a href="contact" class="btn wow fadeIn">Contact</a>
+                    <div class="footer-social">
+                        <ul class="social-profile">
+                            <li class="twitter"><a href="www.twitter.com"><i class="icon icon-social-twitter"></i></a></li>
+                            <li class="facebook"><a href="www.facebook.com"><i class="icon icon-social-facebook"></i></a></li>
+                            <li class="youtube"><a href="www.youtube.com"><i class="icon icon-social-youtube"></i></a></li>
+                            <li class="dribble"><a href="www.dribbble.com"><i class="icon icon-social-dribbble"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- footer-top end -->
+            </div>
+            <!-- container -->
+        
+            <!-- Footer Bottom
+            ============================================= -->
+            <div class="footer-bottom clearfix">
+                <div class="copyright-footer">
+                    <p>Copyright &#169; 2015, All Rights Reserved <a href="http://www.themesawesome.com/">Themes Awesome</a>
+                    </p>
+                </div>
+            </div>
+            <!-- footer-bottom end -->
+
+        </footer>
+        <!-- footer end -->
+    </div>
+    <!-- #main wrapper end-->
+
+    <!-- Footer Scripts
+    ============================================= -->
+    <!-- external -->
+    <script type="text/javascript" src="js/flexslider.js"></script>
+    <script type="text/javascript" src="js/plugin.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- revolution slider -->
+    <script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript">
+        $(window).load(function () {
+            $(".testimonial-wrap .flexslider").flexslider({
+                animation: "slide",
+                controlNav: false,
+                prevText: "",
+                nextText: "",
+                directionNav: true,
+                smoothHeight: false,
+                slideshowSpeed: 5000
+            });
+        });
+    </script>
+    <script type="text/javascript">
+ 
+   jQuery(window).load(function() {
+      jQuery('.banner').revolution({
+         delay:9000,
+         startwidth:960,
+         startheight:500,
+         startWithSlide:0,
+ 
+         fullScreenAlignForce:"off",
+         autoHeight:"off",
+         minHeight:"off",
+ 
+         shuffle:"off",
+ 
+         onHoverStop:"off",
+ 
+         thumbWidth:100,
+         thumbHeight:50,
+         thumbAmount:3,
+ 
+         hideThumbsOnMobile:"off",
+         hideNavDelayOnMobile:1500,
+         hideBulletsOnMobile:"off",
+         hideArrowsOnMobile:"off",
+         hideThumbsUnderResoluition:0,
+ 
+         hideThumbs:0,
+         hideTimerBar:"on",
+ 
+         keyboardNavigation:"on",
+ 
+         navigationType:"bullet",
+         navigationArrows:"solo",
+         navigationStyle:"round",
+ 
+         navigationHAlign:"center",
+         navigationVAlign:"bottom",
+         navigationHOffset:30,
+         navigationVOffset:30,
+ 
+         soloArrowLeftHalign:"left",
+         soloArrowLeftValign:"center",
+         soloArrowLeftHOffset:20,
+         soloArrowLeftVOffset:0,
+ 
+         soloArrowRightHalign:"right",
+         soloArrowRightValign:"center",
+         soloArrowRightHOffset:20,
+         soloArrowRightVOffset:0,
+ 
+ 
+         touchenabled:"on",
+         swipe_velocity:"0.7",
+         swipe_max_touches:"1",
+         swipe_min_touches:"1",
+         drag_block_vertical:"false",
+ 
+         parallax:"mouse",
+         parallaxBgFreeze:"on",
+         parallaxLevels:[10,7,4,3,2,5,4,3,2,1],
+         parallaxDisableOnMobile:"off",
+ 
+         stopAtSlide:-1,
+         stopAfterLoops:-1,
+         hideCaptionAtLimit:0,
+         hideAllCaptionAtLilmit:0,
+         hideSliderAtLimit:0,
+ 
+         dottedOverlay:"none",
+ 
+         spinned:"spinner4",
+ 
+         fullWidth:"off",
+         forceFullWidth:"off",
+         fullScreen:"on",
+
+         fullScreenOffset:"0",
+ 
+         panZoomDisableOnMobile:"off",
+ 
+         simplifyAll:"off",
+
+ 
+         shadow:0
+ 
+      });
+ 
+   });
+ 
+</script>
+    
+</body>
+
+</html>

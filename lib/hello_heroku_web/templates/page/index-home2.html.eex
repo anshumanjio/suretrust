@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <!-- Stylesheets
+    ============================================= -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/plugin.css" type="text/css" />
+    <link rel="stylesheet" href="css/font.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+    <!-- revolution slider -->
+    <link rel="stylesheet" href="css/extralayers.css" type="text/css" />
+    <link rel="stylesheet" href="css/navstylechange.css" type="text/css" />
+
+    <!-- External Stylesheets
+    ============================================= -->
+    <link rel="stylesheet" type="text/css" href="css/settings.css" media="screen" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <!-- External JavaScripts
+    ============================================= -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+
+    <!-- Document Title
+    ============================================= -->
+    <title>Sure Trust | Multipurpose HTML Template</title>
+
+</head>
+
+<body>
+	<!-- MAIN WRAPPER -->
+	<div id="main-wrapper" class="animsition clearfix">
+
+		<!-- HEADER -->
+        <header class="site-header clearfix">
+            <div class="header-wrap">
+                <div class="container">
+                    <!-- Logo
+                        ============================================= -->
+                    <div class="logo">
+                        <a href=""><img src="images/img/logo.png" alt="Smaze Logo">
+                        </a>
+                    </div>
+                    <!-- #logo end -->
+                    <!-- Primary Navigation
+                        ============================================= -->
+                    <button id="menu-icon" class="burger">
+                    <span class="bar bar-1"></span>
+                    <span class="bar bar-2"></span>
+                    <span class="bar bar-3"></span>
+                    <span class="bar bar-4"></span>
+                    </button>
+                    <nav id="main-nav" class="clearfix">
+                        <ul>
+                            <li class="menu-item-has-children active">
+                                <a href="/">Home</a>
+                                <ul class="children">
+                                    <li>
+                                        <a href="index-home2">Home 2</a>
+                                    </li>
+                                    <li>
+                                        <a href="index-home3">Home 3</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="about-us" aria-haspopup="true">About</a>
+                            </li>
+                            <li>
+                                <a href="services">Services</a>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="portfolio">Portfolio</a>
+                                <ul class="children">
+                                    <li>
+                                        <a href="portfolio-grid">Portfolio Alt</a>
+                                    </li>
+                                    <li>
+                                        <a href="portfolio-single">Single Portfolio</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="blog-index">Blog</a>
+                                <ul class="children">
+                                    <li>
+                                        <a href="blog-masonry">Blog Alt</a>
+                                    </li>
+                                    <li>
+                                        <a href="single-post">Single Blog</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="contact">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- #main-nav end -->
+                </div>
+                <!-- header-wrap end -->
+            </div>
+        </header>
+        <!-- header end -->
+
+            <!-- Revolution Slider
+             ============================================= -->
+            <div class="bannercontainer">
+            <div class="banner">
+                <ul>
+                 <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" data-saveperfomance="off">
+                   <img src="images/img/home-slide.jpg" alt="slide1">
+                   <div class="caption tp-resizeme sfb btn"  data-x="810" data-y="365" data-speed="1000" data-start="2500" data-easing="stl">BUY NOW</div>
+                   <div class="caption tp-resizeme sft"  data-x="551" data-y="185" data-speed="1000" data-start="2050"><h1 class="tx-title">Design is <span class="tx-color">Creativity</span></h1></div>
+                   <div class="caption  tp-resizeme sft"  data-x="665" data-y="230" data-speed="1000" data-start="2200" data-easing="stl"><h1 class="tx-title">with <span class="tx-color">Strategy</span></h1></div>
+                   <div class="caption tp-resizeme sft"  data-x="634" data-y="302" data-speed="1000" data-start="2100" data-easing="stl"><h4 class="tx-dsc">We craft experiences for the web</h4></div>
+                   <div class="caption tp-resizeme sft"  data-x="586" data-y="325" data-speed="1000" data-start="2000" data-easing="stl"><h4 class="tx-dsc">helping brands speak in a digital world</h4></div>
+                 </li>
+                 <li data-transition="fade" data-slotamount="7" data-masterspeed="1500">
+                   <img src="images/img/home-slide2.jpg" alt="slide2">
+                   <div class="caption sfb btn"  data-x="400" data-y="370" data-speed="1000" data-start="2500" data-easing="stl">BUY NOW</div>
+                   <div id="slide-title" class="caption lft large_text"  data-x="75" data-y="200" data-speed="1000" data-start="2000" data-easing="stl">MAKE TODAY RIDICULOUSLY AMAZING</div>
+                   <div class="caption lft medium_text"  data-x="145" data-y="320" data-speed="1000" data-start="2000" data-easing="stl">We craft experiences for the web helping brands speak in a digital world</div>
+                 </li>
+                 <li data-transition="fade" data-slotamount="7" data-masterspeed="1500">
+                   <img src="images/img/home-slide3.jpg" alt="slide3">
+                   <div class="caption sfb btn"  data-x="-80" data-y="365" data-speed="1000" data-start="2500" data-easing="stl">BUY NOW</div>
+                   <div class="caption lft large_bold_white"  data-x="-82" data-y="140" data-speed="1000" data-start="2400" data-easing="stl"><span class="tt-slide">IMAGINATION</span></div>
+                   <div class="caption lft large_text"  data-x="-78" data-y="190" data-speed="1000" data-start="2300" data-easing="stl"><h4 class="tx-border">IS MORE IMPORTANT THAN</h4></div>
+                   <div class="caption lft lft large_bold_white"  data-x="-82" data-y="240" data-speed="1000" data-start="2200" data-easing="stl"><span class="tt-slide2">KNOWLEDGE</span></div>
+                   <div class="caption lft"  data-x="-80" data-y="302" data-speed="1000" data-start="2100" data-easing="stl"><h4 class="tx-dsc2">We craft experiences for the web</h4></div>
+                   <div class="caption lft"  data-x="-80" data-y="325" data-speed="1000" data-start="2000" data-easing="stl"><h4 class="tx-dsc2">helping brands speak in a digital world</h4></div>
+                 </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Revolution slider end -->
+
+		<!-- CONTENT WRAPPER
+			============================================= -->
+		<div id="content-wrapper">
+			<section class="portfolio">
+				<div class="container">
+					<h3 class="title-with-bord wow fadeIn">Portfolio</h3>
+					<h2 class="thetitle wow fadeIn">
+						Case Studio Gallery of Our Works
+						</h2>
+					<p class="subtitle wow fadeIn">
+						We think our work speaks for itself. We craft bespoke websites, digital tools, info-graphics and logos to bring your message to colorful design
+					</p>
+				</div>
+
+                <!-- Portfolio Filter
+                ============================================= -->
+                <ul id="portfolio-filter" class="wow fadeIn clearfix">
+
+                    <li class="activeFilter"><a href="#" data-filter="*">All</a></li>
+                    <li><a href="#" data-filter=".web-design">Web Design</a></li>
+                    <li><a href="#" data-filter=".illustrations">Branding</a></li>
+                    <li><a href="#" data-filter=".ui-elements">UI Elements</a></li>
+                    <li><a href="#" data-filter=".graphics">Graphics</a></li>
+
+                </ul><!-- #portfolio-filter end -->
+
+                <!-- Portfolio Items
+                ============================================= -->
+                <div id="portfolio" class="wow fadeIn clearfix">
+                    
+                    <article class="portfolio-item illustrations">
+                    <div class="wow fadeIn">
+                    <a href="portfolio-single">
+                        <div class="portfolio-image">
+                            <img src="images/img/portfolio1.jpg" alt="Portfolio 1">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-desc">
+                                    <h3 class="title-with-bord">Ladder Case</h3>
+                                    <span>Branding</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    </div>
+                    </article>
+
+                    <article class="portfolio-item ui-elements">
+                    <div class="wow fadeIn">
+                    <a href="portfolio-single">
+                        <div class="portfolio-image">
+                            <img src="images/img/portfolio2.jpg" alt="Portfolio 1">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-desc">
+                                    <h3 class="title-with-bord">Coolamari</h3>
+                                    <span>UI Elements</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    </div>
+                    </article>
+
+                    <article class="portfolio-item illustrations">
+                    <div class="wow fadeIn">
+                    <a href="portfolio-single">
+                        <div class="portfolio-image">
+                            <img src="images/img/portfolio3.jpg" alt="Portfolio 1">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-desc">
+                                    <h3 class="title-with-bord">Company Profile Presentation</h3>
+                                    <span>Branding</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    </div>
+                    </article>
+
+                    <article class="portfolio-item web-design">
+                    <div class="wow fadeIn">
+                    <a href="portfolio-single">
+                        <div class="portfolio-image">
+                            <img src="images/img/portfolio4.jpg" alt="Portfolio 1">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-desc">
+                                    <h3 class="title-with-bord">Talk Chair</h3>
+                                    <span>Web Design</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    </div>
+                    </article>
+
+                    <article class="portfolio-item graphics">
+                    <div class="wow fadeIn">
+                    <a href="portfolio-single">
+                        <div class="portfolio-image">
+                            <img src="images/img/portfolio7.jpg" alt="Portfolio 1">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-desc">
+                                    <h3 class="title-with-bord">Ipad Mockup</h3>
+                                    <span>Graphics</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    </div>
+                    </article>
+
+                    <article class="portfolio-item illustrations">
+                    <div class="wow fadeIn">
+                    <a href="portfolio-single">
+                        <div class="portfolio-image">
+                            <img src="images/img/portfolio6.jpg" alt="Portfolio 1">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-desc">
+                                    <h3 class="title-with-bord">Oak Furnished Chair</h3>
+                                    <span>Branding</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    </div>
+                    </article>
+
+                    <article class="portfolio-item graphics">
+                    <div class="wow fadeIn">
+                    <a href="portfolio-single">
+                        <div class="portfolio-image">
+                            <img src="images/img/portfolio5.jpg" alt="Portfolio 1">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-desc">
+                                    <h3 class="title-with-bord">Name Board</h3>
+                                    <span>Graphics</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    </div>
+                    </article>
+
+                    <article class="portfolio-item ui-elements">
+                    <div class="wow fadeIn">
+                    <a href="portfolio-single">
+                        <div class="portfolio-image">
+                            <img src="images/img/portfolio10.jpg" alt="Portfolio 1">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-desc">
+                                    <h3 class="title-with-bord">Reformed Book Shelf</h3>
+                                    <span>UI Elements</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    </div>
+                    </article>
+
+                    <article class="portfolio-item wide-portfolio ui-elements">
+                    <div class="wow fadeIn">
+                    <a href="portfolio-single">
+                        <div class="portfolio-image">
+                            <img src="images/img/portfolio9.jpg" alt="Portfolio 1">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-desc">
+                                    <h3 class="title-with-bord">Clean Shoe Case</h3>
+                                    <span>UI Elements</span>
+                                </div>
+                            </div>
+                         </div>
+                    </a>
+                    </div>
+                    </article>
+
+                    <article class="portfolio-item ui-elements">
+                    <div class="wow fadeIn">
+                    <a href="portfolio-single">
+                        <div class="portfolio-image">
+                            <img src="images/img/portfolio8.jpg" alt="Portfolio 1">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-desc">
+                                    <h3 class="title-with-bord">Office Stationary</h3>
+                                    <span>UI Elements</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    </div>
+                    </article>
+
+                </div><!-- #portfolio end -->
+    
+                <!-- infinite load button -->
+                <div id="load-more-portfolio"><a href="index-infinite-2"></a></div>
+                <button id="load-infinite">Load More</button>
+                <!-- infinite load button end -->
+
+                <!-- Portfolio Script
+                ============================================= -->
+                <script type="text/javascript">
+
+                    jQuery(window).load(function(){
+
+                        var $container = $('#portfolio');
+
+                        $container.isotope({ transitionDuration: '0.65s', layoutMode: 'packery', });
+
+                        $('#portfolio-filter a').click(function(){
+                            $('#portfolio-filter li').removeClass('activeFilter');
+                            $(this).parent('li').addClass('activeFilter');
+                            var selector = $(this).attr('data-filter');
+                            $container.isotope({ filter: selector });
+                            return false;
+                        });
+
+
+                        $(window).resize(function() {
+                            $container.isotope('layout');
+                        });
+
+                            // Infinite Scroll
+                            $container.infinitescroll({
+                                loading: {
+                            finishedMsg: 'There is no more',
+                            msgText: 'loading',
+                            speed: 'normal'
+                                },
+
+                            state: {
+                            isDone: false
+                            },
+                                navSelector  : '#load-more-portfolio', 
+                                nextSelector : '#load-more-portfolio a', 
+                                itemSelector : 'article.portfolio-item',
+
+                            },
+
+                            // Infinite Scroll Callback
+                            function( newElements ) {
+                        $container.isotope( 'appended', $( newElements ) );
+                        var t = setTimeout( function(){ $container.isotope('layout'); }, 2000 );
+
+                            });
+
+                        $(window).unbind();
+                          $("#load-infinite").click(function(){
+                                $container.infinitescroll('retrieve');
+                                 return false;
+
+                            });
+                    });
+
+                </script>
+                <!-- Portfolio Script End -->
+            </section>
+            <!-- portfolio section end -->
+
+			<!-- SERVICES STYLE 1
+            ============================================= -->
+			<section class="services-style-1">
+				<div class="container">
+					<h3 class="title-with-bord wow fadeIn">Services</h3>
+					<h2 class="thetitle wow fadeIn">Improve Digital Works With Us</h2>
+					<p class="subtitle wow fadeIn">
+						We think our work speaks for itself. We craft bespoke websites, digital tools, info-graphics and logos to bring your message to colorful design
+					</p>
+		
+					<div class="service-tab-style1 wow fadeIn">
+    					<ul class="nav nav-tabs feature-box-service-wrap clearfix" role="tablist" id="serviceTabs">
+    						<li role="presentation" class="active feature-box-services col-md-3"><a href="#responsive" aria-controls="responsive" role="tab" data-toggle="tab" class="feature-icon"><i class="icon-screen-smartphone icons"></i></a></li>
+
+    						<li role="presentation" class="feature-box-services col-md-3"><a href="#design" aria-controls="design" role="tab" data-toggle="tab" class="feature-icon"><i class="smaze icon-pencil-ruler icons"></i></a></li>
+
+    						<li role="presentation" class="feature-box-services col-md-3"><a href="#hosting" aria-controls="hosting" role="tab" data-toggle="tab" class="feature-icon"><i class="icon-cloud-upload icons"></i></a></li>
+
+    						<li role="presentation" class="feature-box-services col-md-3"><a href="#setting" aria-controls="setting" role="tab" data-toggle="tab" class="feature-icon"><i class="smaze icon-cog-gear icons"></i></a></li>
+    					</ul>
+
+                    <div class="border-box-services"></div>
+                    </div>
+                </div>
+                <!--container end -->
+
+                <div class="bord-full-service"></div>
+
+				<div class="tab-content service container clearfix">
+					
+                    <div role="tabpanel" class="tab-pane fade in service responsive active" id="responsive">
+						<div class="info col-md-6">
+							<div class="content">
+								<h3 class="dark-title-with-bord">Responsive</h3>
+								<p class="text">Suspendisse porttitor tempor quam a dapibus. Etiam consectetur dolor nec tortor finibus fermentum sit amet eget odio. Integer non nisl vel velit faucibus tincidunt. Aenean elit sem, volutpat sed tellus sed, tempor egestas augue. Fusce diam neque, pretium a venenatis sit amet, ultricies facilisis ex. Nunc vel orci quis neque egestas porttitor id a felis. Maecenas malesuada mi at ipsum lacinia, id ultricies quam semper. Duis ut condimentum dui, id suscipit lorem.</p>
+							</div>
+						</div>
+						<div class="feature col-md-6">
+							<ul class="feature-list top">
+								<li><a href="#"><i class="smaze icon-cog-gear"></i><span>7 x 24 Support</span></a></li>
+								<li><a href="#"><i class="smaze icon-html5"></i><span>HTML5 &amp; Css3</span></a></li>
+								<li><a href="#"><i class="smaze icon-code"></i><span>Strong Coding</span></a></li>
+                            </ul>
+                            <ul class="feature-list bottom">
+								<li><a href="#"><i class="smaze icon-screen-desktop"></i><span>Responsive design</span></a></li>
+                                <li><a href="#"><i class="smaze icon-eye"></i><span>Retina ready</span></a></li>
+                                <li><a href="#"><i class="smaze icon-photo"></i><span>Pixel Perfect</span></a></li>
+							</ul>
+						</div>
+					</div>
+                    <!-- tabpanel end -->
+
+					<div role="tabpanel" class="tab-pane fade in service design" id="design">
+						<div class="info col-md-6">
+							<div class="content">
+								<h3 class="dark-title-with-bord">Design</h3>
+								<p class="text">Suspendisse porttitor tempor quam a dapibus. Etiam consectetur dolor nec tortor finibus fermentum sit amet eget odio. Integer non nisl vel velit faucibus tincidunt. Aenean elit sem, volutpat sed tellus sed, tempor egestas augue. Fusce diam neque, pretium a venenatis sit amet, ultricies facilisis ex. Nunc vel orci quis neque egestas porttitor id a felis. Maecenas malesuada mi at ipsum lacinia, id ultricies quam semper. Duis ut condimentum dui, id suscipit lorem.</p>
+							</div>
+						</div>
+						<div class="feature col-md-6">
+							<ul class="feature-list top">
+                                <li><a href="#"><i class="smaze icon-cog-gear"></i><span>7 x 24 Support</span></a></li>
+                                <li><a href="#"><i class="smaze icon-html5"></i><span>HTML5 &amp; Css3</span></a></li>
+                                <li><a href="#"><i class="smaze icon-code"></i><span>Strong Coding</span></a></li>
+                            </ul>
+                            <ul class="feature-list bottom">
+                                <li><a href="#"><i class="smaze icon-screen-desktop"></i><span>Responsive design</span></a></li>
+                                <li><a href="#"><i class="smaze icon-eye"></i><span>Retina ready</span></a></li>
+                                <li><a href="#"><i class="smaze icon-photo"></i><span>Pixel Perfect</span></a></li>
+                            </ul>
+						</div>
+					</div>
+                    <!-- tabpanel end -->
+
+					<div role="tabpanel" class="tab-pane fade in service hosting" id="hosting">
+						<div class="info col-md-6">
+							<div class="content">
+								<h3 class="dark-title-with-bord">Hosting</h3>
+								<p class="text">Suspendisse porttitor tempor quam a dapibus. Etiam consectetur dolor nec tortor finibus fermentum sit amet eget odio. Integer non nisl vel velit faucibus tincidunt. Aenean elit sem, volutpat sed tellus sed, tempor egestas augue. Fusce diam neque, pretium a venenatis sit amet, ultricies facilisis ex. Nunc vel orci quis neque egestas porttitor id a felis. Maecenas malesuada mi at ipsum lacinia, id ultricies quam semper. Duis ut condimentum dui, id suscipit lorem.</p>
+							</div>
+						</div>
+						<div class="feature col-md-6">
+							<ul class="feature-list top">
+                                <li><a href="#"><i class="smaze icon-cog-gear"></i><span>7 x 24 Support</span></a></li>
+                                <li><a href="#"><i class="smaze icon-html5"></i><span>HTML5 &amp; Css3</span></a></li>
+                                <li><a href="#"><i class="smaze icon-code"></i><span>Strong Coding</span></a></li>
+                            </ul>
+                            <ul class="feature-list bottom">
+                                <li><a href="#"><i class="smaze icon-screen-desktop"></i><span>Responsive design</span></a></li>
+                                <li><a href="#"><i class="smaze icon-eye"></i><span>Retina ready</span></a></li>
+                                <li><a href="#"><i class="smaze icon-photo"></i><span>Pixel Perfect</span></a></li>
+                            </ul>
+						</div>
+					</div>
+                    <!-- tabpanel end -->
+
+					<div role="tabpanel" class="tab-pane fade in service setting" id="setting">
+						<div class="info col-md-6">
+							<div class="content">
+								<h3 class="dark-title-with-bord">Setting Up</h3>
+								<p class="text">Suspendisse porttitor tempor quam a dapibus. Etiam consectetur dolor nec tortor finibus fermentum sit amet eget odio. Integer non nisl vel velit faucibus tincidunt. Aenean elit sem, volutpat sed tellus sed, tempor egestas augue. Fusce diam neque, pretium a venenatis sit amet, ultricies facilisis ex. Nunc vel orci quis neque egestas porttitor id a felis. Maecenas malesuada mi at ipsum lacinia, id ultricies quam semper. Duis ut condimentum dui, id suscipit lorem.</p>
+							</div>
+						</div>
+						<div class="feature col-md-6">
+							<ul class="feature-list top">
+                                <li><a href="#"><i class="smaze icon-cog-gear"></i><span>7 x 24 Support</span></a></li>
+                                <li><a href="#"><i class="smaze icon-html5"></i><span>HTML5 &amp; Css3</span></a></li>
+                                <li><a href="#"><i class="smaze icon-code"></i><span>Strong Coding</span></a></li>
+                            </ul>
+                            <ul class="feature-list bottom">
+                                <li><a href="#"><i class="smaze icon-screen-desktop"></i><span>Responsive design</span></a></li>
+                                <li><a href="#"><i class="smaze icon-eye"></i><span>Retina ready</span></a></li>
+                                <li><a href="#"><i class="smaze icon-photo"></i><span>Pixel Perfect</span></a></li>
+                            </ul>
+						</div>
+					</div>
+                    <!-- tabpanel end -->
+
+                </div>
+                <!--#service-tab end -->
+			</section>
+            <!-- service-style-1 end -->
+
+            <!-- SLOGAN WITH BUTTON
+            ============================================= -->
+            <section class="slogan-button">
+                <div class="slogan container">
+                    <h4 class="slogan-title">Smaze is the right theme for your next project</h4>
+                    <a href="#" class="btn slogan-btn">Purchase Now</a>
+                </div>
+            </section>
+            <!-- slogan-button end -->
+
+            <!-- FULL PAGE PARALLAX BACKGROUND
+            ============================================= -->
+            <section class="full-page-section parallax clearfix" id="home2">
+                <div class="overlay"></div>
+                <h2 class="thetitle-slogan">Let's Do This</h2>
+                <div class="transparent-btn">
+                    <a href="" class="btn">Work With Us</a>
+                </div>
+            </section>
+            <!-- full-page-section end -->
+
+		</div>
+		<!-- #content-wrapper end -->
+
+        <!-- FOOTER
+        ============================================= -->
+		<footer class="site-footer">
+			<div class="container">
+
+                <!-- Footer Top
+                ============================================= -->
+				<div class="footer-top">
+					<div class="logo-footer wow fadeIn">
+						<img src="images/img/logo.png" alt="Smaze Logo">
+					</div>
+					<p class="subtitle-footer wow fadeIn">
+						Smaze is the one of the leading creative digital agency in Melobourne, We think our work speaks for itself. We craft be spoke websites, digital tools, info-graphics and logos to bring your message to colorful design We think our work speaks for itself. We craft bespoke websites, digital tools, info-graphics and logos to bring websites, digital tools, info-graphics
+					</p>
+					<a href="contact" class="btn wow fadeIn">Contact</a>
+    				<div class="footer-social">
+                        <ul class="social-profile">
+                            <li class="twitter"><a href="www.twitter.com"><i class="icon icon-social-twitter"></i></a></li>
+                            <li class="facebook"><a href="www.facebook.com"><i class="icon icon-social-facebook"></i></a></li>
+                            <li class="youtube"><a href="www.youtube.com"><i class="icon icon-social-youtube"></i></a></li>
+                            <li class="dribble"><a href="www.dribbble.com"><i class="icon icon-social-dribbble"></i></a></li>
+                        </ul>
+                    </div>
+				</div>
+				<!-- footer-top end -->
+			</div>
+			<!-- container -->
+        
+            <!-- Footer Bottom
+            ============================================= -->
+			<div class="footer-bottom clearfix">
+				<div class="copyright-footer">
+					<p>Copyright &#169; 2015, All Rights Reserved <a href="http://www.themesawesome.com/">Themes Awesome</a>
+					</p>
+				</div>
+			</div>
+			<!-- footer-bottom end -->
+
+		</footer>
+		<!-- footer end -->
+	</div>
+	<!-- #main wrapper end-->
+
+	<!-- Footer Scripts
+============================================= -->
+    <!-- external -->
+    <script type="text/javascript" src="js/plugin.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- revolution slider -->
+    <script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript">
+ 
+   jQuery(window).load(function() {
+      jQuery('.banner').revolution({
+         delay:9000,
+         startwidth:960,
+         startheight:500,
+         startWithSlide:0,
+ 
+         fullScreenAlignForce:"off",
+         autoHeight:"off",
+         minHeight:"off",
+ 
+         shuffle:"off",
+ 
+         onHoverStop:"off",
+ 
+         thumbWidth:100,
+         thumbHeight:50,
+         thumbAmount:3,
+ 
+         hideThumbsOnMobile:"off",
+         hideNavDelayOnMobile:1500,
+         hideBulletsOnMobile:"off",
+         hideArrowsOnMobile:"off",
+         hideThumbsUnderResoluition:0,
+ 
+         hideThumbs:0,
+         hideTimerBar:"on",
+ 
+         keyboardNavigation:"on",
+ 
+         navigationType:"bullet",
+         navigationArrows:"solo",
+         navigationStyle:"round",
+ 
+         navigationHAlign:"center",
+         navigationVAlign:"bottom",
+         navigationHOffset:30,
+         navigationVOffset:30,
+ 
+         soloArrowLeftHalign:"left",
+         soloArrowLeftValign:"center",
+         soloArrowLeftHOffset:20,
+         soloArrowLeftVOffset:0,
+ 
+         soloArrowRightHalign:"right",
+         soloArrowRightValign:"center",
+         soloArrowRightHOffset:20,
+         soloArrowRightVOffset:0,
+ 
+ 
+         touchenabled:"on",
+         swipe_velocity:"0.7",
+         swipe_max_touches:"1",
+         swipe_min_touches:"1",
+         drag_block_vertical:"false",
+ 
+         parallax:"mouse",
+         parallaxBgFreeze:"on",
+         parallaxLevels:[10,7,4,3,2,5,4,3,2,1],
+         parallaxDisableOnMobile:"off",
+ 
+         stopAtSlide:-1,
+         stopAfterLoops:-1,
+         hideCaptionAtLimit:0,
+         hideAllCaptionAtLilmit:0,
+         hideSliderAtLimit:0,
+ 
+         dottedOverlay:"none",
+ 
+         spinned:"spinner4",
+ 
+         fullWidth:"on",
+         forceFullWidth:"off",
+         fullScreen:"on",
+
+         fullScreenOffset:"0",
+ 
+         panZoomDisableOnMobile:"off",
+ 
+         simplifyAll:"off",
+
+ 
+         shadow:0
+ 
+      });
+ 
+   });
+ 
+</script>
+</body>
+
+</html> 
