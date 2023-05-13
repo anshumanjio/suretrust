@@ -44,7 +44,7 @@ RUN apk add --no-cache openssl ncurses-libs bash postgresql-client
 RUN mkdir /app
 WORKDIR /app
 
-COPY --from=build --chown=nobody:nobody /app/_build/prod/rel/hello_heroku ./
+COPY --from=build --chown=nobody:nobody /app/_build/prod/rel/sure_trust ./
 COPY entrypoint.sh .
 
 RUN chown -R nobody: /app

@@ -1,14 +1,14 @@
-defmodule HelloHerokuWeb.ErrorViewTest do
-  use HelloHerokuWeb.ConnCase, async: true
+defmodule SureTrustWeb.ErrorViewTest do
+  use SureTrustWeb.ConnCase, async: true
 
   # Bring render/3 and render_to_string/3 for testing custom views
   import Phoenix.View
 
   test "renders 404.html" do
-    assert render_to_string(HelloHerokuWeb.ErrorView, "404.html", []) == "Not Found"
+    assert render_to_string(SureTrustWeb.ErrorView, "404.html", []) == "Not Found"
   end
 
   test "renders 500.html" do
-    assert render_to_string(HelloHerokuWeb.ErrorView, "500.html", []) == "Internal Server Error"
+    assert render_to_string(SureTrustWeb.ErrorView, "500.html", []) == "Internal Server Error"
   end
 end

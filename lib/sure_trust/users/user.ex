@@ -1,4 +1,4 @@
-defmodule HelloHeroku.Users.User do
+defmodule SureTrust.Users.User do
   use Ecto.Schema
   use Pow.Ecto.Schema
 

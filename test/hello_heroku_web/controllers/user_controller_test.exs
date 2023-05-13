@@ -1,7 +1,7 @@
-defmodule HelloHerokuWeb.UserControllerTest do
-  use HelloHerokuWeb.ConnCase
+defmodule SureTrustWeb.UserControllerTest do
+  use SureTrustWeb.ConnCase
 
-  alias HelloHeroku.Accounts
+  alias SureTrust.Accounts
 
   @create_attrs %{name: "some name", username: "some username"}
   @update_attrs %{name: "some updated name", username: "some updated username"}

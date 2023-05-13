@@ -1,2 +1,2 @@
 ExUnit.start()
-Ecto.Adapters.SQL.Sandbox.mode(HelloHeroku.Repo, :manual)
+Ecto.Adapters.SQL.Sandbox.mode(SureTrust.Repo, :manual)

@@ -1,5 +1,5 @@
-defmodule HelloHerokuWeb.LayoutViewTest do
-  use HelloHerokuWeb.ConnCase, async: true
+defmodule SureTrustWeb.LayoutViewTest do
+  use SureTrustWeb.ConnCase, async: true
 
   # When testing helpers, you may want to import Phoenix.HTML and
   # use functions such as safe_to_string() to convert the helper

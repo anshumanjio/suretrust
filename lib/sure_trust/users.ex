@@ -1,12 +1,12 @@
-defmodule HelloHeroku.Users do
+defmodule SureTrust.Users do
   @moduledoc """
   The Accounts context.
   """
 
   import Ecto.Query, warn: false
-  alias HelloHeroku.Repo
+  alias SureTrust.Repo
 
-  alias HelloHeroku.Users.User
+  alias SureTrust.Users.User
 
   @doc """
   Returns the list of users.

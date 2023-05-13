@@ -1,8 +1,8 @@
-# defmodule HelloHerokuWeb.UserController do
-#   use HelloHerokuWeb, :controller
+# defmodule SureTrustWeb.UserController do
+#   use SureTrustWeb, :controller
 
-#   alias HelloHeroku.Users
-#   alias HelloHeroku.Accounts.User
+#   alias SureTrust.Users
+#   alias SureTrust.Accounts.User
 
 #   def index(conn, _params) do
 #     users = Users.list_users()

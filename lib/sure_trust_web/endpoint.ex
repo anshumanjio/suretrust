@@ -1,16 +1,16 @@
-defmodule HelloHerokuWeb.Endpoint do
-  use Phoenix.Endpoint, otp_app: :hello_heroku
+defmodule SureTrustWeb.Endpoint do
+  use Phoenix.Endpoint, otp_app: :sure_trust
 
   # The session will be stored in the cookie and signed,
   # this means its contents can be read but not tampered with.
   # Set :encryption_salt if you would also like to encrypt it.
   @session_options [
     store: :cookie,
-    key: "_hello_heroku_key",
+    key: "_sure_trust_key",
     signing_salt: "ekxAU/K2"
   ]
 
-  socket "/socket", HelloHerokuWeb.UserSocket,
+  socket "/socket", SureTrustWeb.UserSocket,
     websocket: [timeout: 45_000],
     longpoll: false
 
@@ -22,7 +22,7 @@ defmodule HelloHerokuWeb.Endpoint do
   # when deploying your static files in production.
   plug Plug.Static,
     at: "/",
-    from: :hello_heroku,
+    from: :sure_trust,
     gzip: false,
     only: ~w(css fonts images js favicon.ico robots.txt)
 
@@ -32,7 +32,7 @@ defmodule HelloHerokuWeb.Endpoint do
     socket "/phoenix/live_reload/socket", Phoenix.LiveReloader.Socket
     plug Phoenix.LiveReloader
     plug Phoenix.CodeReloader
-    plug Phoenix.Ecto.CheckRepoStatus, otp_app: :hello_heroku
+    plug Phoenix.Ecto.CheckRepoStatus, otp_app: :sure_trust
   end
 
   plug Phoenix.LiveDashboard.RequestLogger,
@@ -50,6 +50,6 @@ defmodule HelloHerokuWeb.Endpoint do
   plug Plug.MethodOverride
   plug Plug.Head
   plug Plug.Session, @session_options
-  plug Pow.Plug.Session, otp_app: :hello_heroku
-  plug HelloHerokuWeb.Router
+  plug Pow.Plug.Session, otp_app: :sure_trust
+  plug SureTrustWeb.Router
 end

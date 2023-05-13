@@ -1,10 +1,10 @@
-defmodule HelloHeroku.AccountsTest do
-  use HelloHeroku.DataCase
+defmodule SureTrust.AccountsTest do
+  use SureTrust.DataCase
 
-  alias HelloHeroku.Accounts
+  alias SureTrust.Accounts
 
   describe "users" do
-    alias HelloHeroku.Accounts.User
+    alias SureTrust.Accounts.User
 
     @valid_attrs %{name: "some name", username: "some username"}
     @update_attrs %{name: "some updated name", username: "some updated username"}

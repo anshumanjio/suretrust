@@ -1,5 +1,5 @@
-defmodule HelloHerokuWeb.Router do
-  use HelloHerokuWeb, :router
+defmodule SureTrustWeb.Router do
+  use SureTrustWeb, :router
   use Pow.Phoenix.Router
 
   pipeline :browser do
@@ -20,7 +20,7 @@ defmodule HelloHerokuWeb.Router do
     pow_routes()
   end
 
-  scope "/", HelloHerokuWeb do
+  scope "/", SureTrustWeb do
     pipe_through :browser
 
     get "/", PageController, :index
@@ -42,7 +42,7 @@ defmodule HelloHerokuWeb.Router do
   end
 
   # Other scopes may use custom stacks.
-  # scope "/api", HelloHerokuWeb do
+  # scope "/api", SureTrustWeb do
   #   pipe_through :api
   # end
 
@@ -58,7 +58,7 @@ defmodule HelloHerokuWeb.Router do
 
     scope "/" do
       pipe_through :browser
-      live_dashboard "/dashboard", metrics: HelloHerokuWeb.Telemetry
+      live_dashboard "/dashboard", metrics: SureTrustWeb.Telemetry
     end
   end
 end

@@ -1,4 +1,4 @@
-defmodule HelloHerokuWeb.Telemetry do
+defmodule SureTrustWeb.Telemetry do
   use Supervisor
   import Telemetry.Metrics
 
@@ -31,11 +31,11 @@ defmodule HelloHerokuWeb.Telemetry do
       ),
 
       # Database Metrics
-      summary("hello_heroku.repo.query.total_time", unit: {:native, :millisecond}),
-      summary("hello_heroku.repo.query.decode_time", unit: {:native, :millisecond}),
-      summary("hello_heroku.repo.query.query_time", unit: {:native, :millisecond}),
-      summary("hello_heroku.repo.query.queue_time", unit: {:native, :millisecond}),
-      summary("hello_heroku.repo.query.idle_time", unit: {:native, :millisecond}),
+      summary("sure_trust.repo.query.total_time", unit: {:native, :millisecond}),
+      summary("sure_trust.repo.query.decode_time", unit: {:native, :millisecond}),
+      summary("sure_trust.repo.query.query_time", unit: {:native, :millisecond}),
+      summary("sure_trust.repo.query.queue_time", unit: {:native, :millisecond}),
+      summary("sure_trust.repo.query.idle_time", unit: {:native, :millisecond}),
 
       # VM Metrics
       summary("vm.memory.total", unit: {:byte, :kilobyte}),
@@ -49,7 +49,7 @@ defmodule HelloHerokuWeb.Telemetry do
     [
       # A module, function and arguments to be invoked periodically.
       # This function must call :telemetry.execute/3 and a metric must be added above.
-      # {HelloHerokuWeb, :count_users, []}
+      # {SureTrustWeb, :count_users, []}
     ]
   end
 end

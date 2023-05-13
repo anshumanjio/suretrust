@@ -1,5 +1,5 @@
-defmodule HelloHerokuWeb.ErrorView do
-  use HelloHerokuWeb, :view
+defmodule SureTrustWeb.ErrorView do
+  use SureTrustWeb, :view
 
   # If you want to customize a particular status code
   # for a certain format, you may uncomment below.

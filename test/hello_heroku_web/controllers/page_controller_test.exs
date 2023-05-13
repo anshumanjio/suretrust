@@ -1,5 +1,5 @@
-defmodule HelloHerokuWeb.PageControllerTest do
-  use HelloHerokuWeb.ConnCase
+defmodule SureTrustWeb.PageControllerTest do
+  use SureTrustWeb.ConnCase
 
   test "GET /", %{conn: conn} do
     conn = get(conn, "/")

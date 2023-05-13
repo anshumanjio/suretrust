@@ -1,5 +1,5 @@
-defmodule HelloHerokuWeb.PageController do
-  use HelloHerokuWeb, :controller
+defmodule SureTrustWeb.PageController do
+  use SureTrustWeb, :controller
 
   def index(conn, _params) do
     render(conn, "index.html")

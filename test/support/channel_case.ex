@@ -1,4 +1,4 @@
-defmodule HelloHerokuWeb.ChannelCase do
+defmodule SureTrustWeb.ChannelCase do
   @moduledoc """
   This module defines the test case to be used by
   channel tests.
@@ -11,7 +11,7 @@ defmodule HelloHerokuWeb.ChannelCase do
   we enable the SQL sandbox, so changes done to the database
   are reverted at the end of every test. If you are using
   PostgreSQL, you can even run database tests asynchronously
-  by setting `use HelloHerokuWeb.ChannelCase, async: true`, although
+  by setting `use SureTrustWeb.ChannelCase, async: true`, although
   this option is not recommended for other databases.
   """
 
@@ -21,18 +21,18 @@ defmodule HelloHerokuWeb.ChannelCase do
     quote do
       # Import conveniences for testing with channels
       import Phoenix.ChannelTest
-      import HelloHerokuWeb.ChannelCase
+      import SureTrustWeb.ChannelCase
 
       # The default endpoint for testing
-      @endpoint HelloHerokuWeb.Endpoint
+      @endpoint SureTrustWeb.Endpoint
     end
   end
 
   setup tags do
-    :ok = Ecto.Adapters.SQL.Sandbox.checkout(HelloHeroku.Repo)
+    :ok = Ecto.Adapters.SQL.Sandbox.checkout(SureTrust.Repo)
 
     unless tags[:async] do
-      Ecto.Adapters.SQL.Sandbox.mode(HelloHeroku.Repo, {:shared, self()})
+      Ecto.Adapters.SQL.Sandbox.mode(SureTrust.Repo, {:shared, self()})
     end
 
     :ok

@@ -1,4 +1,4 @@
-defmodule HelloHeroku.Application do
+defmodule SureTrust.Application do
   # See https://hexdocs.pm/elixir/Application.html
   # for more information on OTP Applications
   @moduledoc false
@@ -8,27 +8,27 @@ defmodule HelloHeroku.Application do
   def start(_type, _args) do
     children = [
       # Start the Ecto repository
-      HelloHeroku.Repo,
+      SureTrust.Repo,
       # Start the Telemetry supervisor
-      HelloHerokuWeb.Telemetry,
+      SureTrustWeb.Telemetry,
       # Start the PubSub system
-      {Phoenix.PubSub, name: HelloHeroku.PubSub},
+      {Phoenix.PubSub, name: SureTrust.PubSub},
       # Start the Endpoint (http/https)
-      HelloHerokuWeb.Endpoint
-      # Start a worker by calling: HelloHeroku.Worker.start_link(arg)
-      # {HelloHeroku.Worker, arg}
+      SureTrustWeb.Endpoint
+      # Start a worker by calling: SureTrust.Worker.start_link(arg)
+      # {SureTrust.Worker, arg}
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
     # for other strategies and supported options
-    opts = [strategy: :one_for_one, name: HelloHeroku.Supervisor]
+    opts = [strategy: :one_for_one, name: SureTrust.Supervisor]
     Supervisor.start_link(children, opts)
   end
 
   # Tell Phoenix to update the endpoint configuration
   # whenever the application is updated.
   def config_change(changed, _new, removed) do
-    HelloHerokuWeb.Endpoint.config_change(changed, removed)
+    SureTrustWeb.Endpoint.config_change(changed, removed)
     :ok
   end
 end

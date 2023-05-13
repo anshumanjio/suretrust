@@ -7,20 +7,20 @@
 # General application configuration
 import Config
 
-config :hello_heroku,
-  ecto_repos: [HelloHeroku.Repo]
+config :sure_trust,
+  ecto_repos: [SureTrust.Repo]
 
 # Configures POW lib
-config :hello_heroku, :pow,
-  user: HelloHeroku.Users.User,
-  repo: HelloHeroku.Repo
+config :sure_trust, :pow,
+  user: SureTrust.Users.User,
+  repo: SureTrust.Repo
 
 # Configures the endpoint
-config :hello_heroku, HelloHerokuWeb.Endpoint,
+config :sure_trust, SureTrustWeb.Endpoint,
   url: [host: "localhost"],
   secret_key_base: "qZLJaGUsnUEK3bIcuUYmVhMKgByw1GqcS822CtQqzaA3LdtkohcR7ZtMpdQ7Cejm",
-  render_errors: [view: HelloHerokuWeb.ErrorView, accepts: ~w(html json), layout: false],
-  pubsub_server: HelloHeroku.PubSub,
+  render_errors: [view: SureTrustWeb.ErrorView, accepts: ~w(html json), layout: false],
+  pubsub_server: SureTrust.PubSub,
   live_view: [signing_salt: "ldSsQYr6"]
 
 # Configures Elixir's Logger

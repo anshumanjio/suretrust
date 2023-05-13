@@ -1,5 +1,5 @@
-defmodule HelloHeroku.Release do
-  @app :hello_heroku
+defmodule SureTrust.Release do
+  @app :sure_trust
 
   def migrate do
     ensure_started()

@@ -1,12 +1,12 @@
-defmodule HelloHerokuWeb do
+defmodule SureTrustWeb do
   @moduledoc """
   The entrypoint for defining your web interface, such
   as controllers, views, channels and so on.
 
   This can be used in your application as:
 
-      use HelloHerokuWeb, :controller
-      use HelloHerokuWeb, :view
+      use SureTrustWeb, :controller
+      use SureTrustWeb, :view
 
   The definitions below will be executed for every view,
   controller, etc, so keep them short and clean, focused
@@ -19,19 +19,19 @@ defmodule HelloHerokuWeb do
 
   def controller do
     quote do
-      use Phoenix.Controller, namespace: HelloHerokuWeb
+      use Phoenix.Controller, namespace: SureTrustWeb
 
       import Plug.Conn
-      import HelloHerokuWeb.Gettext
-      alias HelloHerokuWeb.Router.Helpers, as: Routes
+      import SureTrustWeb.Gettext
+      alias SureTrustWeb.Router.Helpers, as: Routes
     end
   end
 
   def view do
     quote do
       use Phoenix.View,
-        root: "lib/hello_heroku_web/templates",
-        namespace: HelloHerokuWeb
+        root: "lib/sure_trust_web/templates",
+        namespace: SureTrustWeb
 
       # Import convenience functions from controllers
       import Phoenix.Controller,
@@ -54,7 +54,7 @@ defmodule HelloHerokuWeb do
   def channel do
     quote do
       use Phoenix.Channel
-      import HelloHerokuWeb.Gettext
+      import SureTrustWeb.Gettext
     end
   end
 
@@ -66,9 +66,9 @@ defmodule HelloHerokuWeb do
       # Import basic rendering functionality (render, render_layout, etc)
       import Phoenix.View
 
-      import HelloHerokuWeb.ErrorHelpers
-      import HelloHerokuWeb.Gettext
-      alias HelloHerokuWeb.Router.Helpers, as: Routes
+      import SureTrustWeb.ErrorHelpers
+      import SureTrustWeb.Gettext
+      alias SureTrustWeb.Router.Helpers, as: Routes
     end
   end
 
